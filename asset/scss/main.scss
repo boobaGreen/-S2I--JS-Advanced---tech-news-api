@@ -1,1 +1,23 @@
-$color-principal: #b5ff00;
+@import "color";
+@import "titleHeader";
+@import "background";
+@import "footerStyle";
+
+html,
+body {
+  background-color: #111111;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  // My custom section of title
+  position: sticky;
+  margin: 3rem;
+  height: auto;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+}

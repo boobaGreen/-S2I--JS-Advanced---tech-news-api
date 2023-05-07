@@ -34,10 +34,11 @@ async function main_section() {
   console.log(obj500);
   let array500 = obj500.data; // prendo dell'oggetto solo i dati che mi interessano quindi l'array
 
-  let test_one = getApiOneDet(array500[0]);
-  console.log(test_one);
+  for (let i = 0; i < 500; i++) {
+    let test_one = getApiOneDet(array500[i]);
+    console.log(test_one);
+  }
 }
-
 // START PROGRAM //
 
 main_section();
