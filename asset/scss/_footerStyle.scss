@@ -104,13 +104,13 @@
 // Love dynamically typed text? You're gonna love this
 // Edit these strings to see them typed on the screen:
 $strings: (
-  "Hacker-News" "Build with:JS,API,LODASH,AXIOS,WEBPACK5" "Hacker-News"
-    "By Claudio Dall'Ara For Star2Impact"
+  "By Claudio Dall'Ara For Star2Impact"
+    "Build with:JS,API,LODASH,AXIOS,WEBPACK5"
 );
 
 // now for some timing (in seconds)
 $durCharFwd: 0.08; // character typed 0.1 dafault
-$durFullGap: 2; // time between typed/delete
+$durFullGap: 8; // time between typed/delete
 $durCharBwd: 0.05; // character deleted 0.08 default
 $durDoneGap: 1; // time between strings
 
