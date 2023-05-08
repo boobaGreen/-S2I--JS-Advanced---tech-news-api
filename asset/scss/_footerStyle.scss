@@ -1,9 +1,9 @@
 .footer {
   ul {
-    position: absolute;
-    top: 50%;
+    //position: absolute;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,14 +14,18 @@
   ul li a {
     display: block;
     position: relative;
-    width: 100px;
+    /*  width: 100px;
     height: 100px;
     line-height: 100px;
-    font-size: 40px;
+    font-size: 40px; */
+    width: 1.8rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.7rem;
     text-align: center;
     text-decoration: none;
     color: $color-secondary; // color internal social logo
-    margin: 0 30px;
+    margin: 0 2rem;
     transition: 0.5s;
   }
   ul li a span {
@@ -202,7 +206,8 @@ $currentPercentage: 0;
   align-items: center;
   justify-content: center;
 
-  font-size: calc(10px + 2vw);
+  // font-size: calc(10px + 2vw);
+  font-size: calc(0.1rem + 2vw); //CUSTOM!!!
   font-family: "VT323", monospace, sans-serif;
   color: $color-secondary-bis; // color !!!!!!!!!!!!!
   -webkit-font-smoothing: antialiased;
@@ -210,9 +215,9 @@ $currentPercentage: 0;
   &::after {
     content: "​"; // zero-width space to retain element height
     position: relative;
-    top: -13px; // IMPORTANT WHERE PUT TITLE
+    top: -0px; // IMPORTANT WHERE PUT TITLE
     @media (max-width: 575px) {
-      top: -33px; // IMPORTANT WHERE PUT TITLE max-width: 575px
+      top: -0px; // IMPORTANT WHERE PUT TITLE max-width: 575px
     }
     display: inline-block;
     padding-right: 3px;
