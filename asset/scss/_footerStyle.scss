@@ -204,7 +204,7 @@ $currentPercentage: 0;
 
   font-size: calc(10px + 2vw);
   font-family: "VT323", monospace, sans-serif;
-  color: $color-primary; //
+  color: $color-secondary-bis; // color !!!!!!!!!!!!!
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   &::after {
@@ -217,9 +217,9 @@ $currentPercentage: 0;
     display: inline-block;
     padding-right: 3px;
     padding-right: calc(3px + 0.1vw);
-    border-right: 10px solid rgba($color-primary, 0.75);
-    border-right: calc(1.1vw + 4px) solid rgba($color-primary, 0.75);
-    text-shadow: 0 0 5px $color-primary;
+    border-right: 10px solid rgba($color-secondary-bis, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(black, 0.001);
+    text-shadow: 0 0 5px $color-secondary-bis;
     white-space: nowrap;
     animation: typed #{$durTotal + "s"} linear 1s infinite,
       beam-blink 1s infinite;
