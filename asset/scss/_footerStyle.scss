@@ -207,8 +207,8 @@ $currentPercentage: 0;
   justify-content: center;
 
   // font-size: calc(10px + 2vw);
-  font-size: calc(0.1rem + 2vw); //CUSTOM!!!
-  font-family: "VT323", monospace, sans-serif;
+  font-size: 0.5rem; //CUSTOM!!!
+  font-family: $font-family-1;
   color: $color-secondary-bis; // color !!!!!!!!!!!!!
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

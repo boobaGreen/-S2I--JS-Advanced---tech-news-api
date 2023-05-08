@@ -1,8 +1,9 @@
 .glow-on-hover {
   // width: 220px;
+  font-family: $font-family-1;
   width: 4rem;
-  height: rem;
-  border: 1px solid $color-primary; // border state of inactivity
+  height: 1rem;
+  border: 3px solid $color-secondary; // border state of inactivity
   outline: none;
   color: $color-secondary; // color of pen state of inactivity
   background: #111;
