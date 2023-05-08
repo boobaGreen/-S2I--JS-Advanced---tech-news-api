@@ -1,6 +1,6 @@
 @import "color";
-@import "titleHeader";
 @import "background";
+@import "titleHeader";
 @import "footerStyle";
 
 *,
@@ -33,4 +33,8 @@ body {
   bottom: 2rem;
   height: 8rem;
   width: 100%;
+}
+
+.footer-text {
+  width: 80%;
 }
