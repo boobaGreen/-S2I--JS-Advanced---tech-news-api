@@ -65,7 +65,7 @@ async function main_section() {
 
   document.getElementById("btn").addEventListener("click", function (event) {
     // funzione quando clicco il bottone load-more
-    document.getElementById("btn").innerHTML = "LOADING ...";
+    document.getElementById("btn").innerHTML = "LOADING";
     //const spinner = document.getElementById("spinner-container"); // seleziono lo spinner
     //spinner.style.display = "block"; // faccio comparire lo spinner a schermo
     //document.getElementById("load-more").style.display = "none"; // tolgo il bottone "load more" finche' non ho scaricato e visualizzato le 10(x) news attuali
