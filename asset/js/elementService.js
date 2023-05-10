@@ -35,7 +35,7 @@ export function createOneNewsEl(
   const oneNewsTitleContainer = document.createElement("div");
   oneNewsTitleContainer.classList.add("one-news-title-container"); // vedere se serve questa classe altrimenti toglierla
 
-  const newsTitleEl = document.createElement("h1");
+  const newsTitleEl = document.createElement("h2");
   newsTitleEl.classList.add("news-title"); // vedere se serve questa classe altrimenti toglierla
   newsTitleEl.innerHTML = newsTitle;
 
