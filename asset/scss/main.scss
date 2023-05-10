@@ -15,20 +15,27 @@
 
 html,
 body {
+  height: 100%;
   // position: relative;
 
   background-color: $color-background;
-
-  overflow-x: hidden;
-  font-size: 200%;
 }
+
 // Header aggiunto in grid-area nella scheda header capire se tenerlo a parte sticky
-.container-main-section {
-  grid-area: main;
+.button-container {
+  visibility: hidden;
+  grid-area: btn;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.container-main-section {
+  color: $color-primary;
+  max-height: 50vh;
+  content: " ";
+  grid-area: main;
+  overflow: auto;
 }
 .container-footer-section {
   display: flex;
@@ -37,36 +44,70 @@ body {
   align-items: center;
   grid-area: footer;
 }
+// principal container
 .container-home-section {
+  height: 100%;
   display: grid;
-  height: 95vh;
+
   grid-template-columns: repeat(8, 1fr); // creo grilia 8 x colonne
-  grid-template-rows: 15% 60% 25%;
+  grid-template-rows: 1fr 3fr, 1fr, 1fr;
   grid-template-areas:
     ". header header header header header header ."
-    ". main main main main main main ."
+    "main main main main main main main main"
+    ". btn btn btn btn btn btn ."
     ". footer footer footer footer footer footer .";
 }
 
 .header {
   // My custom section of title
   // position: sticky; // forse da fastidio a griglio!
-  margin: 3rem;
-  height: auto;
+  margin-top: 1rem;
   grid-area: header;
+  max-height: 20vh;
 }
 
 .footer {
+  color: $color-background;
   height: auto;
 }
 
 .footer-text {
-  width: 100%;
-
   height: auto;
 }
 
-.main {
-  content: " ";
-  height: 80%;
+.one-news-div {
+  background-color: $color-background-secondary;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: max-content;
+  color: $color-primary;
+}
+
+.detail-div-top {
+  color: $color-secondary;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-link {
+  color: $color-secondary-bis;
+  display: flex;
+  justify-content: center;
+}
+
+.div-link a {
+  color: $color-secondary;
+  text-decoration: none;
+}
+
+.div-link a:hover {
+  color: $color-primary;
+}
+
+.one-news-title-container {
+  display: flex;
+  justify-content: center;
 }

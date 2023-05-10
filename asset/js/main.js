@@ -6,7 +6,9 @@ import "../scss/main.scss"; // import scss for webpack
 // SERVICE EXTERNAL SECTION //
 
 import { API_500_IDO_OBJ, API_ONE_DET_OBJ } from "./costant"; // IMPORT MY COSTANT FOR API REQUEST
+// IMPORT OTHERS JS FILE PROJECT
 import { createUrl, convertTime } from "./myService";
+import { createPageElement, createOneNewsEl } from "./elementService";
 const _ = require("lodash");
 
 // INTERNAL COSTANT //
@@ -26,22 +28,46 @@ function getApiOneDet(index) {
   return axios.get(createUrl(index, API_ONE_DET_OBJ)); // RETURN a PROMISE -- OBJ Detail One News ".data...."
 }
 
+async function createPage(array_id_news) {
+  const pageElement = createPageElement();
+
+  for (let i = actual_index; i < actual_index + news_per_page; i++) {
+    let newsX = await getApiOneDet(array_id_news[i]); // chiamata alla seconda API per i dettagli di ogni news
+    let titleActual = _.get(newsX, "data.title");
+    let linkActual = _.get(newsX, "data.url");
+    let epochTimeActual = _.get(newsX, "data.time"); // epoch time to convert in Human format
+    let authorActual = _.get(newsX, "data.by");
+    let humanTimeActual = convertTime(epochTimeActual); // richiamo mia funzione esterna per convertire epoch time in human time
+    createOneNewsEl(
+      titleActual,
+      linkActual,
+      humanTimeActual,
+      authorActual,
+      pageElement
+    );
+  }
+  const mainElement = document.getElementById("main");
+  mainElement.appendChild(pageElement);
+}
+
 // MAIN SECTION //
 
 async function main_section() {
   obj500 = await getApi500News();
 
-  console.log(obj500);
+  //console.log(obj500);
   let array500 = obj500.data; // prendo dell'oggetto solo i dati che mi interessano quindi l'array
 
-  for (let i = 0; i < 500; i++) {
-    let test_one = getApiOneDet(array500[i]);
-    console.log(test_one);
-  }
+  //console.log(array500);
+
+  createPage(array500);
 }
 // START PROGRAM //
 
-main_section();
+window.addEventListener("DOMContentLoaded", () => {
+  //setGenPageLayout();
+  main_section();
+});
 
 // TEST SECTION //
 
