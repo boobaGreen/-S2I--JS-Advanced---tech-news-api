@@ -313,17 +313,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(12), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n.bg {\n  position: fixed;\n  top: -50%;\n  left: -50%;\n  right: -50%;\n  bottom: -50%;\n  width: 200%;\n  height: 200vh;\n  background: transparent url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") repeat 0 0;\n  background-repeat: repeat;\n  animation: bg-animation 0.5s infinite;\n  opacity: 0.8;\n  visibility: visible;\n}\n\n@keyframes bg-animation {\n  0% {\n    transform: translate(0, 0);\n  }\n  10% {\n    transform: translate(-5%, -5%);\n  }\n  20% {\n    transform: translate(-10%, 5%);\n  }\n  30% {\n    transform: translate(5%, -10%);\n  }\n  40% {\n    transform: translate(-5%, 15%);\n  }\n  50% {\n    transform: translate(-10%, 5%);\n  }\n  60% {\n    transform: translate(15%, 0);\n  }\n  70% {\n    transform: translate(0, 10%);\n  }\n  80% {\n    transform: translate(-15%, 0);\n  }\n  90% {\n    transform: translate(10%, 5%);\n  }\n  100% {\n    transform: translate(5%, 0);\n  }\n}\n@keyframes typed1 {\n  /* string 1, char 1 */\n  0%, 0.2906514765% {\n    content: \"H\";\n  }\n  /* string 1, char 2 */\n  0.2916514765%, 0.582302953% {\n    content: \"Ha\";\n  }\n  /* string 1, char 3 */\n  0.583302953%, 0.8739544295% {\n    content: \"Hac\";\n  }\n  /* string 1, char 4 */\n  0.8749544295%, 1.1656059059% {\n    content: \"Hack\";\n  }\n  /* string 1, char 5 */\n  1.1666059059%, 1.4572573824% {\n    content: \"Hacke\";\n  }\n  /* string 1, char 6 */\n  1.4582573824%, 1.7489088589% {\n    content: \"Hacker\";\n  }\n  /* string 1, char 7 */\n  1.7499088589%, 2.0405603354% {\n    content: \"Hacker-\";\n  }\n  /* string 1, char 8 */\n  2.0415603354%, 2.3322118119% {\n    content: \"Hacker-N\";\n  }\n  /* string 1, char 9 */\n  2.3332118119%, 2.6238632884% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 1, char 10 */\n  2.6248632884%, 2.9155147649% {\n    content: \"Hacker-New\";\n  }\n  /* string 1, char 11 */\n  2.9165147649%, 94.5305348159% {\n    content: \"Hacker-News\";\n  }\n  /* string 1, char 12 */\n  94.5315348159%, 94.7128169887% {\n    content: \"Hacker-New\";\n  }\n  /* string 1, char 13 */\n  94.7138169887%, 94.8950991615% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 1, char 14 */\n  94.8960991615%, 95.0773813343% {\n    content: \"Hacker-N\";\n  }\n  /* string 1, char 15 */\n  95.0783813343%, 95.2596635071% {\n    content: \"Hacker-\";\n  }\n  /* string 1, char 16 */\n  95.2606635071%, 95.4419456799% {\n    content: \"Hacker\";\n  }\n  /* string 1, char 17 */\n  95.4429456799%, 95.6242278527% {\n    content: \"Hacke\";\n  }\n  /* string 1, char 18 */\n  95.6252278527%, 95.8065100255% {\n    content: \"Hack\";\n  }\n  /* string 1, char 19 */\n  95.8075100255%, 95.9887921983% {\n    content: \"Hac\";\n  }\n  /* string 1, char 20 */\n  95.9897921983%, 96.1710743711% {\n    content: \"Ha\";\n  }\n  /* string 1, char 21 */\n  96.1720743711%, 96.3533565439% {\n    content: \"H\";\n  }\n  /* string 1, char 22 */\n  96.3543565439%, 100% {\n    content: \"​\";\n  }\n}\n@keyframes beam-blink {\n  75% {\n    border-color: transparent;\n  }\n}\n* {\n  backface-visibility: hidden;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 1.8vw);\n  font-family: \"VT323\", monospace, sans-serif;\n  color: rgb(181, 255, 0);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.header::after {\n  content: \"​\";\n  position: relative;\n  top: -13px;\n  display: inline-block;\n  padding-right: 3px;\n  padding-right: calc(3px + 0.1vw);\n  border-right: 10px solid rgba(181, 255, 0, 0.75);\n  border-right: calc(1.1vw + 4px) solid rgba(181, 255, 0, 0.75);\n  text-shadow: 0 0 5px rgb(181, 255, 0);\n  white-space: nowrap;\n  animation: typed1 27.43s linear 1s infinite, beam-blink 1s infinite;\n}\n@media (max-width: 575px) {\n  .header::after {\n    top: -33px;\n  }\n}\n\n.glow-on-hover {\n  font-family: \"VT323\", monospace, sans-serif;\n  width: 6rem;\n  height: 2rem;\n  border: 3px solid rgba(170, 255, 0, 0.379);\n  outline: none;\n  color: rgba(170, 255, 0, 0.379);\n  background: #111;\n  cursor: pointer;\n  position: relative;\n  z-index: 0;\n  border-radius: 10px;\n}\n\n.glow-on-hover:before {\n  content: \"\";\n  background: linear-gradient(45deg, rgb(211, 244, 127), rgb(184, 238, 47), rgb(181, 255, 0), rgba(170, 255, 0, 0.379), rgb(181, 255, 0), rgb(184, 238, 47), rgba(170, 255, 0, 0.379), rgb(181, 255, 0));\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  background-size: 400%;\n  z-index: -1;\n  filter: blur(5px);\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  animation: glowing 20s linear infinite;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n  border-radius: 10px;\n}\n\n.glow-on-hover:hover {\n  color: rgb(181, 255, 0);\n}\n\n.glow-on-hover:active:after {\n  background: transparent;\n}\n\n.glow-on-hover:hover:before {\n  opacity: 1;\n}\n\n.glow-on-hover:after {\n  z-index: -1;\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #111;\n  left: 0;\n  top: 0;\n  border-radius: 10px;\n}\n\n@keyframes glowing {\n  0% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 400% 0;\n  }\n  100% {\n    background-position: 0 0;\n  }\n}\n.footer ul {\n  /* top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  margin: 0;\n  padding: 0;\n  display: flex;\n}\n.footer ul li {\n  list-style: none;\n}\n.footer ul li a {\n  display: block;\n  position: relative;\n  /*  width: 100px;\n  height: 100px;\n  line-height: 100px;\n  font-size: 40px; */\n  width: 50px;\n  height: 50px;\n  line-height: 50px;\n  font-size: 20px;\n  text-align: center;\n  text-decoration: none;\n  color: rgba(170, 255, 0, 0.379);\n  margin: 0 15px;\n  transition: 0.5s;\n}\n.footer ul li a span {\n  position: absolute;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(1),\n.footer ul li a span:nth-child(3) {\n  width: 100%;\n  height: 3px;\n  background: rgba(170, 255, 0, 0.379);\n}\n.footer ul li a span:nth-child(1) {\n  top: 0;\n  left: 0;\n  transform-origin: right;\n}\n.footer ul li a:hover span:nth-child(1) {\n  transform: scaleX(0);\n  transform-origin: left;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(3) {\n  bottom: 0;\n  left: 0;\n  transform-origin: left;\n}\n.footer ul li a:hover span:nth-child(3) {\n  transform: scaleX(0);\n  transform-origin: right;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(2),\n.footer ul li a span:nth-child(4) {\n  width: 3px;\n  height: 100%;\n  background: rgba(170, 255, 0, 0.379);\n}\n.footer ul li a span:nth-child(2) {\n  top: 0;\n  left: 0;\n  transform: scale(0);\n  transform-origin: bottom;\n}\n.footer ul li a:hover span:nth-child(2) {\n  transform: scale(1);\n  transform-origin: top;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(4) {\n  top: 0;\n  right: 0;\n  transform: scale(0);\n  transform-origin: top;\n}\n.footer ul li a:hover span:nth-child(4) {\n  transform: scale(1);\n  transform-origin: bottom;\n  transition: transform 0.5s;\n}\n.footer .github:hover {\n  color: rgb(181, 255, 0);\n}\n.footer .github:hover span {\n  background: rgb(181, 255, 0);\n}\n.footer .linkedin:hover {\n  color: rgb(181, 255, 0);\n}\n.footer .linkedin:hover span {\n  background: rgb(181, 255, 0);\n}\n\n@keyframes typed {\n  /* string 1, char 1 */\n  0%, 0.2886451846% {\n    content: \"B\";\n  }\n  /* string 1, char 2 */\n  0.2896451846%, 0.5782903693% {\n    content: \"By\";\n  }\n  /* string 1, char 3 */\n  0.5792903693%, 0.8679355539% {\n    content: \"By \";\n  }\n  /* string 1, char 4 */\n  0.8689355539%, 1.1575807386% {\n    content: \"By C\";\n  }\n  /* string 1, char 5 */\n  1.1585807386%, 1.4472259232% {\n    content: \"By Cl\";\n  }\n  /* string 1, char 6 */\n  1.4482259232%, 1.7368711079% {\n    content: \"By Cla\";\n  }\n  /* string 1, char 7 */\n  1.7378711079%, 2.0265162925% {\n    content: \"By Clau\";\n  }\n  /* string 1, char 8 */\n  2.0275162925%, 2.3161614772% {\n    content: \"By Claud\";\n  }\n  /* string 1, char 9 */\n  2.3171614772%, 2.6058066618% {\n    content: \"By Claudi\";\n  }\n  /* string 1, char 10 */\n  2.6068066618%, 2.8954518465% {\n    content: \"By Claudio\";\n  }\n  /* string 1, char 11 */\n  2.8964518465%, 3.1850970311% {\n    content: \"By Claudio \";\n  }\n  /* string 1, char 12 */\n  3.1860970311%, 3.4747422158% {\n    content: \"By Claudio D\";\n  }\n  /* string 1, char 13 */\n  3.4757422158%, 3.7643874004% {\n    content: \"By Claudio Da\";\n  }\n  /* string 1, char 14 */\n  3.7653874004%, 4.0540325851% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 1, char 15 */\n  4.0550325851%, 4.3436777697% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 1, char 16 */\n  4.3446777697%, 4.6333229544% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 1, char 17 */\n  4.6343229544%, 4.922968139% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 1, char 18 */\n  4.923968139%, 5.2126133237% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 1, char 19 */\n  5.2136133237%, 5.5022585083% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 1, char 20 */\n  5.5032585083%, 5.791903693% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 1, char 21 */\n  5.792903693%, 6.0815488776% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 1, char 22 */\n  6.0825488776%, 6.3711940623% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 1, char 23 */\n  6.3721940623%, 6.6608392469% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 1, char 24 */\n  6.6618392469%, 6.9504844316% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 1, char 25 */\n  6.9514844316%, 7.2401296162% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 1, char 26 */\n  7.2411296162%, 7.5297748009% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 1, char 27 */\n  7.5307748009%, 7.8194199855% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 1, char 28 */\n  7.8204199855%, 8.1090651702% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 1, char 29 */\n  8.1100651702%, 8.3987103548% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 1, char 30 */\n  8.3997103548%, 8.6883555395% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 1, char 31 */\n  8.6893555395%, 8.9780007241% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 1, char 32 */\n  8.9790007241%, 9.2676459088% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 1, char 33 */\n  9.2686459088%, 9.5572910934% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 1, char 34 */\n  9.5582910934%, 9.8469362781% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 1, char 35 */\n  9.8479362781%, 39.282128168% {\n    content: \"By Claudio Dall'Ara For Star2Impact\";\n  }\n  /* string 1, char 36 */\n  39.283128168%, 39.4631564084% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 1, char 37 */\n  39.4641564084%, 39.6441846488% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 1, char 38 */\n  39.6451846488%, 39.8252128892% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 1, char 39 */\n  39.8262128892%, 40.0062411296% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 1, char 40 */\n  40.0072411296%, 40.18726937% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 1, char 41 */\n  40.18826937%, 40.3682976104% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 1, char 42 */\n  40.3692976104%, 40.5493258508% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 1, char 43 */\n  40.5503258508%, 40.7303540912% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 1, char 44 */\n  40.7313540912%, 40.9113823316% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 1, char 45 */\n  40.9123823316%, 41.092410572% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 1, char 46 */\n  41.093410572%, 41.2734388125% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 1, char 47 */\n  41.2744388125%, 41.4544670529% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 1, char 48 */\n  41.4554670529%, 41.6354952933% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 1, char 49 */\n  41.6364952933%, 41.8165235337% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 1, char 50 */\n  41.8175235337%, 41.9975517741% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 1, char 51 */\n  41.9985517741%, 42.1785800145% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 1, char 52 */\n  42.1795800145%, 42.3596082549% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 1, char 53 */\n  42.3606082549%, 42.5406364953% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 1, char 54 */\n  42.5416364953%, 42.7216647357% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 1, char 55 */\n  42.7226647357%, 42.9026929761% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 1, char 56 */\n  42.9036929761%, 43.0837212165% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 1, char 57 */\n  43.0847212165%, 43.2647494569% {\n    content: \"By Claudio Da\";\n  }\n  /* string 1, char 58 */\n  43.2657494569%, 43.4457776973% {\n    content: \"By Claudio D\";\n  }\n  /* string 1, char 59 */\n  43.4467776973%, 43.6268059377% {\n    content: \"By Claudio \";\n  }\n  /* string 1, char 60 */\n  43.6278059377%, 43.8078341781% {\n    content: \"By Claudio\";\n  }\n  /* string 1, char 61 */\n  43.8088341781%, 43.9888624185% {\n    content: \"By Claudi\";\n  }\n  /* string 1, char 62 */\n  43.9898624185%, 44.1698906589% {\n    content: \"By Claud\";\n  }\n  /* string 1, char 63 */\n  44.1708906589%, 44.3509188993% {\n    content: \"By Clau\";\n  }\n  /* string 1, char 64 */\n  44.3519188993%, 44.5319471398% {\n    content: \"By Cla\";\n  }\n  /* string 1, char 65 */\n  44.5329471398%, 44.7129753802% {\n    content: \"By Cl\";\n  }\n  /* string 1, char 66 */\n  44.7139753802%, 44.8940036206% {\n    content: \"By C\";\n  }\n  /* string 1, char 67 */\n  44.8950036206%, 45.075031861% {\n    content: \"By \";\n  }\n  /* string 1, char 68 */\n  45.076031861%, 45.2560601014% {\n    content: \"By\";\n  }\n  /* string 1, char 69 */\n  45.2570601014%, 45.4370883418% {\n    content: \"B\";\n  }\n  /* string 1, char 70 */\n  45.4380883418%, 49.0576531499% {\n    content: \"​\";\n  }\n  /* string 2, char 1 */\n  49.0586531499%, 49.3472983345% {\n    content: \"B\";\n  }\n  /* string 2, char 2 */\n  49.3482983345%, 49.6369435192% {\n    content: \"Bu\";\n  }\n  /* string 2, char 3 */\n  49.6379435192%, 49.9265887038% {\n    content: \"Bui\";\n  }\n  /* string 2, char 4 */\n  49.9275887038%, 50.2162338885% {\n    content: \"Buil\";\n  }\n  /* string 2, char 5 */\n  50.2172338885%, 50.5058790731% {\n    content: \"Build\";\n  }\n  /* string 2, char 6 */\n  50.5068790731%, 50.7955242578% {\n    content: \"Build \";\n  }\n  /* string 2, char 7 */\n  50.7965242578%, 51.0851694424% {\n    content: \"Build w\";\n  }\n  /* string 2, char 8 */\n  51.0861694424%, 51.3748146271% {\n    content: \"Build wi\";\n  }\n  /* string 2, char 9 */\n  51.3758146271%, 51.6644598117% {\n    content: \"Build wit\";\n  }\n  /* string 2, char 10 */\n  51.6654598117%, 51.9541049964% {\n    content: \"Build with\";\n  }\n  /* string 2, char 11 */\n  51.9551049964%, 52.243750181% {\n    content: \"Build with:\";\n  }\n  /* string 2, char 12 */\n  52.244750181%, 52.5333953657% {\n    content: \"Build with:J\";\n  }\n  /* string 2, char 13 */\n  52.5343953657%, 52.8230405503% {\n    content: \"Build with:JS\";\n  }\n  /* string 2, char 14 */\n  52.8240405503%, 53.112685735% {\n    content: \"Build with:JS,\";\n  }\n  /* string 2, char 15 */\n  53.113685735%, 53.4023309196% {\n    content: \"Build with:JS,A\";\n  }\n  /* string 2, char 16 */\n  53.4033309196%, 53.6919761043% {\n    content: \"Build with:JS,AP\";\n  }\n  /* string 2, char 17 */\n  53.6929761043%, 53.9816212889% {\n    content: \"Build with:JS,API\";\n  }\n  /* string 2, char 18 */\n  53.9826212889%, 54.2712664736% {\n    content: \"Build with:JS,API,\";\n  }\n  /* string 2, char 19 */\n  54.2722664736%, 54.5609116582% {\n    content: \"Build with:JS,API,L\";\n  }\n  /* string 2, char 20 */\n  54.5619116582%, 54.8505568429% {\n    content: \"Build with:JS,API,LO\";\n  }\n  /* string 2, char 21 */\n  54.8515568429%, 55.1402020275% {\n    content: \"Build with:JS,API,LOD\";\n  }\n  /* string 2, char 22 */\n  55.1412020275%, 55.4298472122% {\n    content: \"Build with:JS,API,LODA\";\n  }\n  /* string 2, char 23 */\n  55.4308472122%, 55.7194923968% {\n    content: \"Build with:JS,API,LODAS\";\n  }\n  /* string 2, char 24 */\n  55.7204923968%, 56.0091375815% {\n    content: \"Build with:JS,API,LODASH\";\n  }\n  /* string 2, char 25 */\n  56.0101375815%, 56.2987827661% {\n    content: \"Build with:JS,API,LODASH,\";\n  }\n  /* string 2, char 26 */\n  56.2997827661%, 56.5884279508% {\n    content: \"Build with:JS,API,LODASH,A\";\n  }\n  /* string 2, char 27 */\n  56.5894279508%, 56.8780731354% {\n    content: \"Build with:JS,API,LODASH,AX\";\n  }\n  /* string 2, char 28 */\n  56.8790731354%, 57.1677183201% {\n    content: \"Build with:JS,API,LODASH,AXI\";\n  }\n  /* string 2, char 29 */\n  57.1687183201%, 57.4573635047% {\n    content: \"Build with:JS,API,LODASH,AXIO\";\n  }\n  /* string 2, char 30 */\n  57.4583635047%, 57.7470086894% {\n    content: \"Build with:JS,API,LODASH,AXIOS\";\n  }\n  /* string 2, char 31 */\n  57.7480086894%, 58.036653874% {\n    content: \"Build with:JS,API,LODASH,AXIOS,\";\n  }\n  /* string 2, char 32 */\n  58.037653874%, 58.3262990587% {\n    content: \"Build with:JS,API,LODASH,AXIOS,W\";\n  }\n  /* string 2, char 33 */\n  58.3272990587%, 58.6159442433% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WE\";\n  }\n  /* string 2, char 34 */\n  58.6169442433%, 58.905589428% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEB\";\n  }\n  /* string 2, char 35 */\n  58.906589428%, 59.1952346126% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBP\";\n  }\n  /* string 2, char 36 */\n  59.1962346126%, 59.4848797972% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPA\";\n  }\n  /* string 2, char 37 */\n  59.4858797972%, 59.7745249819% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPAC\";\n  }\n  /* string 2, char 38 */\n  59.7755249819%, 60.0641701665% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPACK\";\n  }\n  /* string 2, char 39 */\n  60.0651701665%, 89.4993620565% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPACK5\";\n  }\n  /* string 2, char 40 */\n  89.5003620565%, 89.6803902969% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPACK\";\n  }\n  /* string 2, char 41 */\n  89.6813902969%, 89.8614185373% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPAC\";\n  }\n  /* string 2, char 42 */\n  89.8624185373%, 90.0424467777% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBPA\";\n  }\n  /* string 2, char 43 */\n  90.0434467777%, 90.2234750181% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEBP\";\n  }\n  /* string 2, char 44 */\n  90.2244750181%, 90.4045032585% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WEB\";\n  }\n  /* string 2, char 45 */\n  90.4055032585%, 90.5855314989% {\n    content: \"Build with:JS,API,LODASH,AXIOS,WE\";\n  }\n  /* string 2, char 46 */\n  90.5865314989%, 90.7665597393% {\n    content: \"Build with:JS,API,LODASH,AXIOS,W\";\n  }\n  /* string 2, char 47 */\n  90.7675597393%, 90.9475879797% {\n    content: \"Build with:JS,API,LODASH,AXIOS,\";\n  }\n  /* string 2, char 48 */\n  90.9485879797%, 91.1286162201% {\n    content: \"Build with:JS,API,LODASH,AXIOS\";\n  }\n  /* string 2, char 49 */\n  91.1296162201%, 91.3096444605% {\n    content: \"Build with:JS,API,LODASH,AXIO\";\n  }\n  /* string 2, char 50 */\n  91.3106444605%, 91.4906727009% {\n    content: \"Build with:JS,API,LODASH,AXI\";\n  }\n  /* string 2, char 51 */\n  91.4916727009%, 91.6717009413% {\n    content: \"Build with:JS,API,LODASH,AX\";\n  }\n  /* string 2, char 52 */\n  91.6727009413%, 91.8527291818% {\n    content: \"Build with:JS,API,LODASH,A\";\n  }\n  /* string 2, char 53 */\n  91.8537291818%, 92.0337574222% {\n    content: \"Build with:JS,API,LODASH,\";\n  }\n  /* string 2, char 54 */\n  92.0347574222%, 92.2147856626% {\n    content: \"Build with:JS,API,LODASH\";\n  }\n  /* string 2, char 55 */\n  92.2157856626%, 92.395813903% {\n    content: \"Build with:JS,API,LODAS\";\n  }\n  /* string 2, char 56 */\n  92.396813903%, 92.5768421434% {\n    content: \"Build with:JS,API,LODA\";\n  }\n  /* string 2, char 57 */\n  92.5778421434%, 92.7578703838% {\n    content: \"Build with:JS,API,LOD\";\n  }\n  /* string 2, char 58 */\n  92.7588703838%, 92.9388986242% {\n    content: \"Build with:JS,API,LO\";\n  }\n  /* string 2, char 59 */\n  92.9398986242%, 93.1199268646% {\n    content: \"Build with:JS,API,L\";\n  }\n  /* string 2, char 60 */\n  93.1209268646%, 93.300955105% {\n    content: \"Build with:JS,API,\";\n  }\n  /* string 2, char 61 */\n  93.301955105%, 93.4819833454% {\n    content: \"Build with:JS,API\";\n  }\n  /* string 2, char 62 */\n  93.4829833454%, 93.6630115858% {\n    content: \"Build with:JS,AP\";\n  }\n  /* string 2, char 63 */\n  93.6640115858%, 93.8440398262% {\n    content: \"Build with:JS,A\";\n  }\n  /* string 2, char 64 */\n  93.8450398262%, 94.0250680666% {\n    content: \"Build with:JS,\";\n  }\n  /* string 2, char 65 */\n  94.0260680666%, 94.206096307% {\n    content: \"Build with:JS\";\n  }\n  /* string 2, char 66 */\n  94.207096307%, 94.3871245474% {\n    content: \"Build with:J\";\n  }\n  /* string 2, char 67 */\n  94.3881245474%, 94.5681527878% {\n    content: \"Build with:\";\n  }\n  /* string 2, char 68 */\n  94.5691527878%, 94.7491810282% {\n    content: \"Build with\";\n  }\n  /* string 2, char 69 */\n  94.7501810282%, 94.9302092686% {\n    content: \"Build wit\";\n  }\n  /* string 2, char 70 */\n  94.9312092686%, 95.1112375091% {\n    content: \"Build wi\";\n  }\n  /* string 2, char 71 */\n  95.1122375091%, 95.2922657495% {\n    content: \"Build w\";\n  }\n  /* string 2, char 72 */\n  95.2932657495%, 95.4732939899% {\n    content: \"Build \";\n  }\n  /* string 2, char 73 */\n  95.4742939899%, 95.6543222303% {\n    content: \"Build\";\n  }\n  /* string 2, char 74 */\n  95.6553222303%, 95.8353504707% {\n    content: \"Buil\";\n  }\n  /* string 2, char 75 */\n  95.8363504707%, 96.0163787111% {\n    content: \"Bui\";\n  }\n  /* string 2, char 76 */\n  96.0173787111%, 96.1974069515% {\n    content: \"Bu\";\n  }\n  /* string 2, char 77 */\n  96.1984069515%, 96.3784351919% {\n    content: \"B\";\n  }\n  /* string 2, char 78 */\n  96.3794351919%, 100% {\n    content: \"​\";\n  }\n}\n@keyframes beam-blink {\n  75% {\n    border-color: transparent;\n  }\n}\n* {\n  backface-visibility: hidden;\n}\n\n.footer-text {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(3px + 1.8vw);\n  font-family: \"VT323\", monospace, sans-serif;\n  color: rgba(170, 255, 0, 0.11);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.footer-text::after {\n  content: \"​\";\n  position: relative;\n  top: 0px;\n  display: inline-block;\n  padding-right: 3px;\n  padding-right: calc(3px + 0.1vw);\n  border-right: 10px solid rgba(170, 255, 0, 0.75);\n  border-right: calc(1.1vw + 4px) solid rgba(0, 0, 0, 0.001);\n  text-shadow: 0 0 5px rgba(170, 255, 0, 0.11);\n  white-space: nowrap;\n  animation: typed 27.62s linear 1s infinite, beam-blink 1s infinite;\n}\n@media (max-width: 575px) {\n  .footer-text::after {\n    top: 0px;\n  }\n}\n\n*,\n*::before,\n*::after {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nhtml,\nbody {\n  margin-top: 0px;\n  height: 100%;\n  background-color: #1f1f1f;\n}\n\n.button-container {\n  grid-area: btn;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.container-main-section {\n  color: rgb(181, 255, 0);\n  content: \" \";\n  grid-area: main;\n  overflow: auto;\n}\n\n.container-footer-section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  grid-area: footer;\n}\n\n.container-home-section {\n  height: 100%;\n  display: grid;\n  grid-template-columns: repeat(8, 1fr);\n  grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;\n  grid-template-areas: \". header header header header header header .\" \"main main main main main main main main\" \". btn btn btn btn btn btn .\" \". footer footer footer footer footer footer .\";\n}\n\n.header {\n  margin-top: 15px;\n  grid-area: header;\n}\n\n.footer {\n  color: #1f1f1f;\n}\n\n.footer-text {\n  height: auto;\n}\n\n.one-news-div {\n  background-color: #1a1a1a;\n  margin-top: 1rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 100%;\n  height: max-content;\n  color: rgb(181, 255, 0);\n}\n\n.detail-div-top {\n  color: rgba(170, 255, 0, 0.379);\n  display: flex;\n  justify-content: space-between;\n}\n\n.div-link {\n  color: rgba(170, 255, 0, 0.11);\n  display: flex;\n  justify-content: center;\n}\n\n.div-link a {\n  color: rgba(170, 255, 0, 0.379);\n  text-decoration: none;\n}\n\n.div-link a:hover {\n  color: rgb(181, 255, 0);\n}\n\n.one-news-title-container {\n  display: flex;\n  justify-content: center;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n@keyframes typed1 {\n  /* string 1, char 1 */\n  0%, 0.1773325903% {\n    content: \"H\";\n  }\n  /* string 1, char 2 */\n  0.1783325903%, 0.3556651806% {\n    content: \"Ha\";\n  }\n  /* string 1, char 3 */\n  0.3566651806%, 0.5339977708% {\n    content: \"Hac\";\n  }\n  /* string 1, char 4 */\n  0.5349977708%, 0.7123303611% {\n    content: \"Hack\";\n  }\n  /* string 1, char 5 */\n  0.7133303611%, 0.8906629514% {\n    content: \"Hacke\";\n  }\n  /* string 1, char 6 */\n  0.8916629514%, 1.0689955417% {\n    content: \"Hacker\";\n  }\n  /* string 1, char 7 */\n  1.0699955417%, 1.247328132% {\n    content: \"Hacker-\";\n  }\n  /* string 1, char 8 */\n  1.248328132%, 1.4256607222% {\n    content: \"Hacker-N\";\n  }\n  /* string 1, char 9 */\n  1.4266607222%, 1.6039933125% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 1, char 10 */\n  1.6049933125%, 1.7823259028% {\n    content: \"Hacker-New\";\n  }\n  /* string 1, char 11 */\n  1.7833259028%, 46.6552639322% {\n    content: \"Hacker-News\";\n  }\n  /* string 1, char 12 */\n  46.6562639322%, 46.7667218012% {\n    content: \"Hacker-New\";\n  }\n  /* string 1, char 13 */\n  46.7677218012%, 46.8781796701% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 1, char 14 */\n  46.8791796701%, 46.989637539% {\n    content: \"Hacker-N\";\n  }\n  /* string 1, char 15 */\n  46.990637539%, 47.1010954079% {\n    content: \"Hacker-\";\n  }\n  /* string 1, char 16 */\n  47.1020954079%, 47.2125532769% {\n    content: \"Hacker\";\n  }\n  /* string 1, char 17 */\n  47.2135532769%, 47.3240111458% {\n    content: \"Hacke\";\n  }\n  /* string 1, char 18 */\n  47.3250111458%, 47.4354690147% {\n    content: \"Hack\";\n  }\n  /* string 1, char 19 */\n  47.4364690147%, 47.5469268836% {\n    content: \"Hac\";\n  }\n  /* string 1, char 20 */\n  47.5479268836%, 47.6583847526% {\n    content: \"Ha\";\n  }\n  /* string 1, char 21 */\n  47.6593847526%, 47.7698426215% {\n    content: \"H\";\n  }\n  /* string 1, char 22 */\n  47.7708426215%, 49.999% {\n    content: \"​\";\n  }\n  /* string 2, char 1 */\n  50%, 50.1773325903% {\n    content: \"H\";\n  }\n  /* string 2, char 2 */\n  50.1783325903%, 50.3556651806% {\n    content: \"Ha\";\n  }\n  /* string 2, char 3 */\n  50.3566651806%, 50.5339977708% {\n    content: \"Hac\";\n  }\n  /* string 2, char 4 */\n  50.5349977708%, 50.7123303611% {\n    content: \"Hack\";\n  }\n  /* string 2, char 5 */\n  50.7133303611%, 50.8906629514% {\n    content: \"Hacke\";\n  }\n  /* string 2, char 6 */\n  50.8916629514%, 51.0689955417% {\n    content: \"Hacker\";\n  }\n  /* string 2, char 7 */\n  51.0699955417%, 51.247328132% {\n    content: \"Hacker-\";\n  }\n  /* string 2, char 8 */\n  51.248328132%, 51.4256607222% {\n    content: \"Hacker-N\";\n  }\n  /* string 2, char 9 */\n  51.4266607222%, 51.6039933125% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 2, char 10 */\n  51.6049933125%, 51.7823259028% {\n    content: \"Hacker-New\";\n  }\n  /* string 2, char 11 */\n  51.7833259028%, 96.6552639322% {\n    content: \"Hacker-News\";\n  }\n  /* string 2, char 12 */\n  96.6562639322%, 96.7667218012% {\n    content: \"Hacker-New\";\n  }\n  /* string 2, char 13 */\n  96.7677218012%, 96.8781796701% {\n    content: \"Hacker-Ne\";\n  }\n  /* string 2, char 14 */\n  96.8791796701%, 96.989637539% {\n    content: \"Hacker-N\";\n  }\n  /* string 2, char 15 */\n  96.990637539%, 97.1010954079% {\n    content: \"Hacker-\";\n  }\n  /* string 2, char 16 */\n  97.1020954079%, 97.2125532769% {\n    content: \"Hacker\";\n  }\n  /* string 2, char 17 */\n  97.2135532769%, 97.3240111458% {\n    content: \"Hacke\";\n  }\n  /* string 2, char 18 */\n  97.3250111458%, 97.4354690147% {\n    content: \"Hack\";\n  }\n  /* string 2, char 19 */\n  97.4364690147%, 97.5469268836% {\n    content: \"Hac\";\n  }\n  /* string 2, char 20 */\n  97.5479268836%, 97.6583847526% {\n    content: \"Ha\";\n  }\n  /* string 2, char 21 */\n  97.6593847526%, 97.7698426215% {\n    content: \"H\";\n  }\n  /* string 2, char 22 */\n  97.7708426215%, 100% {\n    content: \"​\";\n  }\n}\n@keyframes beam-blink {\n  75% {\n    border-color: transparent;\n  }\n}\n* {\n  backface-visibility: hidden;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 1.8vw);\n  font-family: \"VT323\", monospace, sans-serif;\n  color: rgb(181, 255, 0);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.header::after {\n  content: \"​\";\n  position: relative;\n  top: -13px;\n  display: inline-block;\n  padding-right: 3px;\n  padding-right: calc(5px + 1vw);\n  border-right: 10px solid rgba(181, 255, 0, 0.75);\n  border-right: calc(1.1vw + 4px) solid rgba(181, 255, 0, 0.75);\n  text-shadow: 0 0 5px rgb(181, 255, 0);\n  white-space: nowrap;\n  animation: typed1 44.86s linear 1s infinite, beam-blink 1s infinite;\n}\n@media (max-width: 575px) {\n  .header::after {\n    top: -33px;\n  }\n}\n\n.glow-on-hover {\n  font-size: large;\n  font-family: \"VT323\", monospace, sans-serif;\n  width: 8rem;\n  height: 2rem;\n  border: 3px solid rgba(170, 255, 0, 0.379);\n  outline: none;\n  color: rgba(170, 255, 0, 0.379);\n  background: #1a1a1a;\n  cursor: pointer;\n  position: relative;\n  z-index: 0;\n  border-radius: 10px;\n}\n\n.glow-on-hover:before {\n  content: \"\";\n  background: linear-gradient(45deg, rgb(211, 244, 127), rgb(184, 238, 47), rgb(181, 255, 0), rgba(170, 255, 0, 0.379), rgb(181, 255, 0), rgb(184, 238, 47), rgba(170, 255, 0, 0.379), rgb(181, 255, 0));\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  background-size: 400%;\n  z-index: -1;\n  filter: blur(5px);\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  animation: glowing 20s linear infinite;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n  border-radius: 10px;\n}\n\n.glow-on-hover:hover {\n  color: rgb(181, 255, 0);\n}\n\n.glow-on-hover:active:after {\n  background: transparent;\n}\n\n.glow-on-hover:hover:before {\n  opacity: 1;\n}\n\n.glow-on-hover:after {\n  z-index: -1;\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #1a1a1a;\n  left: 0;\n  top: 0;\n  border-radius: 10px;\n}\n\n@keyframes glowing {\n  0% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 400% 0;\n  }\n  100% {\n    background-position: 0 0;\n  }\n}\n.footer ul {\n  /* top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  margin: 0;\n  padding: 0;\n  display: flex;\n}\n.footer ul li {\n  list-style: none;\n}\n.footer ul li a {\n  display: block;\n  position: relative;\n  /*  width: 100px;\n  height: 100px;\n  line-height: 100px;\n  font-size: 40px; */\n  width: 50px;\n  height: 50px;\n  line-height: 50px;\n  font-size: 20px;\n  text-align: center;\n  text-decoration: none;\n  color: rgba(170, 255, 0, 0.379);\n  margin: 0 15px;\n  transition: 0.5s;\n}\n.footer ul li a span {\n  position: absolute;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(1),\n.footer ul li a span:nth-child(3) {\n  width: 100%;\n  height: 3px;\n  background: rgba(170, 255, 0, 0.379);\n}\n.footer ul li a span:nth-child(1) {\n  top: 0;\n  left: 0;\n  transform-origin: right;\n}\n.footer ul li a:hover span:nth-child(1) {\n  transform: scaleX(0);\n  transform-origin: left;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(3) {\n  bottom: 0;\n  left: 0;\n  transform-origin: left;\n}\n.footer ul li a:hover span:nth-child(3) {\n  transform: scaleX(0);\n  transform-origin: right;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(2),\n.footer ul li a span:nth-child(4) {\n  width: 3px;\n  height: 100%;\n  background: rgba(170, 255, 0, 0.379);\n}\n.footer ul li a span:nth-child(2) {\n  top: 0;\n  left: 0;\n  transform: scale(0);\n  transform-origin: bottom;\n}\n.footer ul li a:hover span:nth-child(2) {\n  transform: scale(1);\n  transform-origin: top;\n  transition: transform 0.5s;\n}\n.footer ul li a span:nth-child(4) {\n  top: 0;\n  right: 0;\n  transform: scale(0);\n  transform-origin: top;\n}\n.footer ul li a:hover span:nth-child(4) {\n  transform: scale(1);\n  transform-origin: bottom;\n  transition: transform 0.5s;\n}\n.footer .github:hover {\n  color: rgb(181, 255, 0);\n}\n.footer .github:hover span {\n  background: rgb(181, 255, 0);\n}\n.footer .linkedin:hover {\n  color: rgb(181, 255, 0);\n}\n.footer .linkedin:hover span {\n  background: rgb(181, 255, 0);\n}\n\n@keyframes typed {\n  /* string 1, char 1 */\n  0%, 0.217459858% {\n    content: \"B\";\n  }\n  /* string 1, char 2 */\n  0.218459858%, 0.435919716% {\n    content: \"By\";\n  }\n  /* string 1, char 3 */\n  0.436919716%, 0.654379574% {\n    content: \"By \";\n  }\n  /* string 1, char 4 */\n  0.655379574%, 0.872839432% {\n    content: \"By C\";\n  }\n  /* string 1, char 5 */\n  0.873839432%, 1.09129929% {\n    content: \"By Cl\";\n  }\n  /* string 1, char 6 */\n  1.09229929%, 1.309759148% {\n    content: \"By Cla\";\n  }\n  /* string 1, char 7 */\n  1.310759148%, 1.528219006% {\n    content: \"By Clau\";\n  }\n  /* string 1, char 8 */\n  1.529219006%, 1.746678864% {\n    content: \"By Claud\";\n  }\n  /* string 1, char 9 */\n  1.747678864%, 1.965138722% {\n    content: \"By Claudi\";\n  }\n  /* string 1, char 10 */\n  1.966138722%, 2.18359858% {\n    content: \"By Claudio\";\n  }\n  /* string 1, char 11 */\n  2.18459858%, 2.402058438% {\n    content: \"By Claudio \";\n  }\n  /* string 1, char 12 */\n  2.403058438%, 2.620518296% {\n    content: \"By Claudio D\";\n  }\n  /* string 1, char 13 */\n  2.621518296%, 2.838978154% {\n    content: \"By Claudio Da\";\n  }\n  /* string 1, char 14 */\n  2.839978154%, 3.057438012% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 1, char 15 */\n  3.058438012%, 3.27589787% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 1, char 16 */\n  3.27689787%, 3.494357728% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 1, char 17 */\n  3.495357728%, 3.712817586% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 1, char 18 */\n  3.713817586%, 3.931277444% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 1, char 19 */\n  3.932277444%, 4.149737302% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 1, char 20 */\n  4.150737302%, 4.36819716% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 1, char 21 */\n  4.36919716%, 4.586657018% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 1, char 22 */\n  4.587657018%, 4.805116876% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 1, char 23 */\n  4.806116876%, 5.023576734% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 1, char 24 */\n  5.024576734%, 5.242036592% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 1, char 25 */\n  5.243036592%, 5.46049645% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 1, char 26 */\n  5.46149645%, 5.678956308% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 1, char 27 */\n  5.679956308%, 5.897416166% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 1, char 28 */\n  5.898416166%, 6.115876024% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 1, char 29 */\n  6.116876024%, 6.334335882% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 1, char 30 */\n  6.335335882%, 6.55279574% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 1, char 31 */\n  6.55379574%, 6.771255598% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 1, char 32 */\n  6.772255598%, 6.989715456% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 1, char 33 */\n  6.990715456%, 7.208175314% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 1, char 34 */\n  7.209175314%, 7.426635172% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 1, char 35 */\n  7.427635172%, 18.7046253413% {\n    content: \"By Claudio Dall'Ara For Star2Impact\";\n  }\n  /* string 1, char 36 */\n  18.7056253413%, 18.8411627526% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 1, char 37 */\n  18.8421627526%, 18.9777001638% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 1, char 38 */\n  18.9787001638%, 19.1142375751% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 1, char 39 */\n  19.1152375751%, 19.2507749863% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 1, char 40 */\n  19.2517749863%, 19.3873123976% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 1, char 41 */\n  19.3883123976%, 19.5238498088% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 1, char 42 */\n  19.5248498088%, 19.6603872201% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 1, char 43 */\n  19.6613872201%, 19.7969246313% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 1, char 44 */\n  19.7979246313%, 19.9334620426% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 1, char 45 */\n  19.9344620426%, 20.0699994539% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 1, char 46 */\n  20.0709994539%, 20.2065368651% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 1, char 47 */\n  20.2075368651%, 20.3430742764% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 1, char 48 */\n  20.3440742764%, 20.4796116876% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 1, char 49 */\n  20.4806116876%, 20.6161490989% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 1, char 50 */\n  20.6171490989%, 20.7526865101% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 1, char 51 */\n  20.7536865101%, 20.8892239214% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 1, char 52 */\n  20.8902239214%, 21.0257613326% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 1, char 53 */\n  21.0267613326%, 21.1622987439% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 1, char 54 */\n  21.1632987439%, 21.2988361551% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 1, char 55 */\n  21.2998361551%, 21.4353735664% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 1, char 56 */\n  21.4363735664%, 21.5719109776% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 1, char 57 */\n  21.5729109776%, 21.7084483889% {\n    content: \"By Claudio Da\";\n  }\n  /* string 1, char 58 */\n  21.7094483889%, 21.8449858001% {\n    content: \"By Claudio D\";\n  }\n  /* string 1, char 59 */\n  21.8459858001%, 21.9815232114% {\n    content: \"By Claudio \";\n  }\n  /* string 1, char 60 */\n  21.9825232114%, 22.1180606226% {\n    content: \"By Claudio\";\n  }\n  /* string 1, char 61 */\n  22.1190606226%, 22.2545980339% {\n    content: \"By Claudi\";\n  }\n  /* string 1, char 62 */\n  22.2555980339%, 22.3911354451% {\n    content: \"By Claud\";\n  }\n  /* string 1, char 63 */\n  22.3921354451%, 22.5276728564% {\n    content: \"By Clau\";\n  }\n  /* string 1, char 64 */\n  22.5286728564%, 22.6642102676% {\n    content: \"By Cla\";\n  }\n  /* string 1, char 65 */\n  22.6652102676%, 22.8007476789% {\n    content: \"By Cl\";\n  }\n  /* string 1, char 66 */\n  22.8017476789%, 22.9372850901% {\n    content: \"By C\";\n  }\n  /* string 1, char 67 */\n  22.9382850901%, 23.0738225014% {\n    content: \"By \";\n  }\n  /* string 1, char 68 */\n  23.0748225014%, 23.2103599126% {\n    content: \"By\";\n  }\n  /* string 1, char 69 */\n  23.2113599126%, 23.3468973239% {\n    content: \"B\";\n  }\n  /* string 1, char 70 */\n  23.3478973239%, 25.5314959039% {\n    content: \"​\";\n  }\n  /* string 2, char 1 */\n  25.5324959039%, 25.7499557619% {\n    content: \"B\";\n  }\n  /* string 2, char 2 */\n  25.7509557619%, 25.9684156199% {\n    content: \"Bu\";\n  }\n  /* string 2, char 3 */\n  25.9694156199%, 26.1868754779% {\n    content: \"Bui\";\n  }\n  /* string 2, char 4 */\n  26.1878754779%, 26.4053353359% {\n    content: \"Buil\";\n  }\n  /* string 2, char 5 */\n  26.4063353359%, 26.6237951939% {\n    content: \"Build\";\n  }\n  /* string 2, char 6 */\n  26.6247951939%, 26.8422550519% {\n    content: \"Build \";\n  }\n  /* string 2, char 7 */\n  26.8432550519%, 27.0607149099% {\n    content: \"Build w\";\n  }\n  /* string 2, char 8 */\n  27.0617149099%, 27.2791747679% {\n    content: \"Build wi\";\n  }\n  /* string 2, char 9 */\n  27.2801747679%, 27.4976346259% {\n    content: \"Build wit\";\n  }\n  /* string 2, char 10 */\n  27.4986346259%, 27.7160944839% {\n    content: \"Build with\";\n  }\n  /* string 2, char 11 */\n  27.7170944839%, 27.9345543419% {\n    content: \"Build with \";\n  }\n  /* string 2, char 12 */\n  27.9355543419%, 28.1530141999% {\n    content: \"Build with :\";\n  }\n  /* string 2, char 13 */\n  28.1540141999%, 28.3714740579% {\n    content: \"Build with : \";\n  }\n  /* string 2, char 14 */\n  28.3724740579%, 28.5899339159% {\n    content: \"Build with : L\";\n  }\n  /* string 2, char 15 */\n  28.5909339159%, 28.8083937739% {\n    content: \"Build with : LO\";\n  }\n  /* string 2, char 16 */\n  28.8093937739%, 29.0268536319% {\n    content: \"Build with : LOD\";\n  }\n  /* string 2, char 17 */\n  29.0278536319%, 29.2453134899% {\n    content: \"Build with : LODA\";\n  }\n  /* string 2, char 18 */\n  29.2463134899%, 29.4637733479% {\n    content: \"Build with : LODAS\";\n  }\n  /* string 2, char 19 */\n  29.4647733479%, 29.6822332059% {\n    content: \"Build with : LODASH\";\n  }\n  /* string 2, char 20 */\n  29.6832332059%, 29.9006930639% {\n    content: \"Build with : LODASH,\";\n  }\n  /* string 2, char 21 */\n  29.9016930639%, 30.1191529219% {\n    content: \"Build with : LODASH, \";\n  }\n  /* string 2, char 22 */\n  30.1201529219%, 30.3376127799% {\n    content: \"Build with : LODASH, A\";\n  }\n  /* string 2, char 23 */\n  30.3386127799%, 30.5560726379% {\n    content: \"Build with : LODASH, AX\";\n  }\n  /* string 2, char 24 */\n  30.5570726379%, 30.7745324959% {\n    content: \"Build with : LODASH, AXI\";\n  }\n  /* string 2, char 25 */\n  30.7755324959%, 30.9929923539% {\n    content: \"Build with : LODASH, AXIO\";\n  }\n  /* string 2, char 26 */\n  30.9939923539%, 31.2114522119% {\n    content: \"Build with : LODASH, AXIOS\";\n  }\n  /* string 2, char 27 */\n  31.2124522119%, 31.4299120699% {\n    content: \"Build with : LODASH, AXIOS \";\n  }\n  /* string 2, char 28 */\n  31.4309120699%, 31.6483719279% {\n    content: \"Build with : LODASH, AXIOS ,\";\n  }\n  /* string 2, char 29 */\n  31.6493719279%, 31.8668317859% {\n    content: \"Build with : LODASH, AXIOS , \";\n  }\n  /* string 2, char 30 */\n  31.8678317859%, 32.0852916439% {\n    content: \"Build with : LODASH, AXIOS , W\";\n  }\n  /* string 2, char 31 */\n  32.0862916439%, 32.3037515019% {\n    content: \"Build with : LODASH, AXIOS , WE\";\n  }\n  /* string 2, char 32 */\n  32.3047515019%, 32.5222113599% {\n    content: \"Build with : LODASH, AXIOS , WEB\";\n  }\n  /* string 2, char 33 */\n  32.5232113599%, 32.7406712179% {\n    content: \"Build with : LODASH, AXIOS , WEBP\";\n  }\n  /* string 2, char 34 */\n  32.7416712179%, 32.9591310759% {\n    content: \"Build with : LODASH, AXIOS , WEBPA\";\n  }\n  /* string 2, char 35 */\n  32.9601310759%, 33.1775909339% {\n    content: \"Build with : LODASH, AXIOS , WEBPAC\";\n  }\n  /* string 2, char 36 */\n  33.1785909339%, 33.3960507919% {\n    content: \"Build with : LODASH, AXIOS , WEBPACK\";\n  }\n  /* string 2, char 37 */\n  33.3970507919%, 44.6740409612% {\n    content: \"Build with : LODASH, AXIOS , WEBPACK5\";\n  }\n  /* string 2, char 38 */\n  44.6750409612%, 44.8105783725% {\n    content: \"Build with : LODASH, AXIOS , WEBPACK\";\n  }\n  /* string 2, char 39 */\n  44.8115783725%, 44.9471157837% {\n    content: \"Build with : LODASH, AXIOS , WEBPAC\";\n  }\n  /* string 2, char 40 */\n  44.9481157837%, 45.083653195% {\n    content: \"Build with : LODASH, AXIOS , WEBPA\";\n  }\n  /* string 2, char 41 */\n  45.084653195%, 45.2201906062% {\n    content: \"Build with : LODASH, AXIOS , WEBP\";\n  }\n  /* string 2, char 42 */\n  45.2211906062%, 45.3567280175% {\n    content: \"Build with : LODASH, AXIOS , WEB\";\n  }\n  /* string 2, char 43 */\n  45.3577280175%, 45.4932654287% {\n    content: \"Build with : LODASH, AXIOS , WE\";\n  }\n  /* string 2, char 44 */\n  45.4942654287%, 45.62980284% {\n    content: \"Build with : LODASH, AXIOS , W\";\n  }\n  /* string 2, char 45 */\n  45.63080284%, 45.7663402512% {\n    content: \"Build with : LODASH, AXIOS , \";\n  }\n  /* string 2, char 46 */\n  45.7673402512%, 45.9028776625% {\n    content: \"Build with : LODASH, AXIOS ,\";\n  }\n  /* string 2, char 47 */\n  45.9038776625%, 46.0394150737% {\n    content: \"Build with : LODASH, AXIOS \";\n  }\n  /* string 2, char 48 */\n  46.0404150737%, 46.175952485% {\n    content: \"Build with : LODASH, AXIOS\";\n  }\n  /* string 2, char 49 */\n  46.176952485%, 46.3124898962% {\n    content: \"Build with : LODASH, AXIO\";\n  }\n  /* string 2, char 50 */\n  46.3134898962%, 46.4490273075% {\n    content: \"Build with : LODASH, AXI\";\n  }\n  /* string 2, char 51 */\n  46.4500273075%, 46.5855647187% {\n    content: \"Build with : LODASH, AX\";\n  }\n  /* string 2, char 52 */\n  46.5865647187%, 46.72210213% {\n    content: \"Build with : LODASH, A\";\n  }\n  /* string 2, char 53 */\n  46.72310213%, 46.8586395412% {\n    content: \"Build with : LODASH, \";\n  }\n  /* string 2, char 54 */\n  46.8596395412%, 46.9951769525% {\n    content: \"Build with : LODASH,\";\n  }\n  /* string 2, char 55 */\n  46.9961769525%, 47.1317143637% {\n    content: \"Build with : LODASH\";\n  }\n  /* string 2, char 56 */\n  47.1327143637%, 47.268251775% {\n    content: \"Build with : LODAS\";\n  }\n  /* string 2, char 57 */\n  47.269251775%, 47.4047891862% {\n    content: \"Build with : LODA\";\n  }\n  /* string 2, char 58 */\n  47.4057891862%, 47.5413265975% {\n    content: \"Build with : LOD\";\n  }\n  /* string 2, char 59 */\n  47.5423265975%, 47.6778640087% {\n    content: \"Build with : LO\";\n  }\n  /* string 2, char 60 */\n  47.6788640087%, 47.81440142% {\n    content: \"Build with : L\";\n  }\n  /* string 2, char 61 */\n  47.81540142%, 47.9509388312% {\n    content: \"Build with : \";\n  }\n  /* string 2, char 62 */\n  47.9519388312%, 48.0874762425% {\n    content: \"Build with :\";\n  }\n  /* string 2, char 63 */\n  48.0884762425%, 48.2240136537% {\n    content: \"Build with \";\n  }\n  /* string 2, char 64 */\n  48.2250136537%, 48.360551065% {\n    content: \"Build with\";\n  }\n  /* string 2, char 65 */\n  48.361551065%, 48.4970884762% {\n    content: \"Build wit\";\n  }\n  /* string 2, char 66 */\n  48.4980884762%, 48.6336258875% {\n    content: \"Build wi\";\n  }\n  /* string 2, char 67 */\n  48.6346258875%, 48.7701632987% {\n    content: \"Build w\";\n  }\n  /* string 2, char 68 */\n  48.7711632987%, 48.90670071% {\n    content: \"Build \";\n  }\n  /* string 2, char 69 */\n  48.90770071%, 49.0432381212% {\n    content: \"Build\";\n  }\n  /* string 2, char 70 */\n  49.0442381212%, 49.1797755325% {\n    content: \"Buil\";\n  }\n  /* string 2, char 71 */\n  49.1807755325%, 49.3163129437% {\n    content: \"Bui\";\n  }\n  /* string 2, char 72 */\n  49.3173129437%, 49.452850355% {\n    content: \"Bu\";\n  }\n  /* string 2, char 73 */\n  49.453850355%, 49.5893877662% {\n    content: \"B\";\n  }\n  /* string 2, char 74 */\n  49.5903877662%, 51.7739863463% {\n    content: \"​\";\n  }\n  /* string 3, char 1 */\n  51.7749863463%, 51.9924462043% {\n    content: \"B\";\n  }\n  /* string 3, char 2 */\n  51.9934462043%, 52.2109060623% {\n    content: \"By\";\n  }\n  /* string 3, char 3 */\n  52.2119060623%, 52.4293659203% {\n    content: \"By \";\n  }\n  /* string 3, char 4 */\n  52.4303659203%, 52.6478257783% {\n    content: \"By C\";\n  }\n  /* string 3, char 5 */\n  52.6488257783%, 52.8662856363% {\n    content: \"By Cl\";\n  }\n  /* string 3, char 6 */\n  52.8672856363%, 53.0847454943% {\n    content: \"By Cla\";\n  }\n  /* string 3, char 7 */\n  53.0857454943%, 53.3032053523% {\n    content: \"By Clau\";\n  }\n  /* string 3, char 8 */\n  53.3042053523%, 53.5216652103% {\n    content: \"By Claud\";\n  }\n  /* string 3, char 9 */\n  53.5226652103%, 53.7401250683% {\n    content: \"By Claudi\";\n  }\n  /* string 3, char 10 */\n  53.7411250683%, 53.9585849263% {\n    content: \"By Claudio\";\n  }\n  /* string 3, char 11 */\n  53.9595849263%, 54.1770447843% {\n    content: \"By Claudio \";\n  }\n  /* string 3, char 12 */\n  54.1780447843%, 54.3955046423% {\n    content: \"By Claudio D\";\n  }\n  /* string 3, char 13 */\n  54.3965046423%, 54.6139645003% {\n    content: \"By Claudio Da\";\n  }\n  /* string 3, char 14 */\n  54.6149645003%, 54.8324243583% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 3, char 15 */\n  54.8334243583%, 55.0508842163% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 3, char 16 */\n  55.0518842163%, 55.2693440743% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 3, char 17 */\n  55.2703440743%, 55.4878039323% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 3, char 18 */\n  55.4888039323%, 55.7062637903% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 3, char 19 */\n  55.7072637903%, 55.9247236483% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 3, char 20 */\n  55.9257236483%, 56.1431835063% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 3, char 21 */\n  56.1441835063%, 56.3616433643% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 3, char 22 */\n  56.3626433643%, 56.5801032223% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 3, char 23 */\n  56.5811032223%, 56.7985630803% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 3, char 24 */\n  56.7995630803%, 57.0170229383% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 3, char 25 */\n  57.0180229383%, 57.2354827963% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 3, char 26 */\n  57.2364827963%, 57.4539426543% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 3, char 27 */\n  57.4549426543%, 57.6724025123% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 3, char 28 */\n  57.6734025123%, 57.8908623703% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 3, char 29 */\n  57.8918623703%, 58.1093222283% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 3, char 30 */\n  58.1103222283%, 58.3277820863% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 3, char 31 */\n  58.3287820863%, 58.5462419443% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 3, char 32 */\n  58.5472419443%, 58.7647018023% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 3, char 33 */\n  58.7657018023%, 58.9831616603% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 3, char 34 */\n  58.9841616603%, 59.2016215183% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 3, char 35 */\n  59.2026215183%, 70.4796116876% {\n    content: \"By Claudio Dall'Ara For Star2Impact\";\n  }\n  /* string 3, char 36 */\n  70.4806116876%, 70.6161490989% {\n    content: \"By Claudio Dall'Ara For Star2Impac\";\n  }\n  /* string 3, char 37 */\n  70.6171490989%, 70.7526865101% {\n    content: \"By Claudio Dall'Ara For Star2Impa\";\n  }\n  /* string 3, char 38 */\n  70.7536865101%, 70.8892239214% {\n    content: \"By Claudio Dall'Ara For Star2Imp\";\n  }\n  /* string 3, char 39 */\n  70.8902239214%, 71.0257613326% {\n    content: \"By Claudio Dall'Ara For Star2Im\";\n  }\n  /* string 3, char 40 */\n  71.0267613326%, 71.1622987439% {\n    content: \"By Claudio Dall'Ara For Star2I\";\n  }\n  /* string 3, char 41 */\n  71.1632987439%, 71.2988361551% {\n    content: \"By Claudio Dall'Ara For Star2\";\n  }\n  /* string 3, char 42 */\n  71.2998361551%, 71.4353735664% {\n    content: \"By Claudio Dall'Ara For Star\";\n  }\n  /* string 3, char 43 */\n  71.4363735664%, 71.5719109776% {\n    content: \"By Claudio Dall'Ara For Sta\";\n  }\n  /* string 3, char 44 */\n  71.5729109776%, 71.7084483889% {\n    content: \"By Claudio Dall'Ara For St\";\n  }\n  /* string 3, char 45 */\n  71.7094483889%, 71.8449858001% {\n    content: \"By Claudio Dall'Ara For S\";\n  }\n  /* string 3, char 46 */\n  71.8459858001%, 71.9815232114% {\n    content: \"By Claudio Dall'Ara For \";\n  }\n  /* string 3, char 47 */\n  71.9825232114%, 72.1180606226% {\n    content: \"By Claudio Dall'Ara For\";\n  }\n  /* string 3, char 48 */\n  72.1190606226%, 72.2545980339% {\n    content: \"By Claudio Dall'Ara Fo\";\n  }\n  /* string 3, char 49 */\n  72.2555980339%, 72.3911354451% {\n    content: \"By Claudio Dall'Ara F\";\n  }\n  /* string 3, char 50 */\n  72.3921354451%, 72.5276728564% {\n    content: \"By Claudio Dall'Ara \";\n  }\n  /* string 3, char 51 */\n  72.5286728564%, 72.6642102676% {\n    content: \"By Claudio Dall'Ara\";\n  }\n  /* string 3, char 52 */\n  72.6652102676%, 72.8007476789% {\n    content: \"By Claudio Dall'Ar\";\n  }\n  /* string 3, char 53 */\n  72.8017476789%, 72.9372850901% {\n    content: \"By Claudio Dall'A\";\n  }\n  /* string 3, char 54 */\n  72.9382850901%, 73.0738225014% {\n    content: \"By Claudio Dall'\";\n  }\n  /* string 3, char 55 */\n  73.0748225014%, 73.2103599126% {\n    content: \"By Claudio Dall\";\n  }\n  /* string 3, char 56 */\n  73.2113599126%, 73.3468973239% {\n    content: \"By Claudio Dal\";\n  }\n  /* string 3, char 57 */\n  73.3478973239%, 73.4834347351% {\n    content: \"By Claudio Da\";\n  }\n  /* string 3, char 58 */\n  73.4844347351%, 73.6199721464% {\n    content: \"By Claudio D\";\n  }\n  /* string 3, char 59 */\n  73.6209721464%, 73.7565095576% {\n    content: \"By Claudio \";\n  }\n  /* string 3, char 60 */\n  73.7575095576%, 73.8930469689% {\n    content: \"By Claudio\";\n  }\n  /* string 3, char 61 */\n  73.8940469689%, 74.0295843801% {\n    content: \"By Claudi\";\n  }\n  /* string 3, char 62 */\n  74.0305843801%, 74.1661217914% {\n    content: \"By Claud\";\n  }\n  /* string 3, char 63 */\n  74.1671217914%, 74.3026592026% {\n    content: \"By Clau\";\n  }\n  /* string 3, char 64 */\n  74.3036592026%, 74.4391966139% {\n    content: \"By Cla\";\n  }\n  /* string 3, char 65 */\n  74.4401966139%, 74.5757340251% {\n    content: \"By Cl\";\n  }\n  /* string 3, char 66 */\n  74.5767340251%, 74.7122714364% {\n    content: \"By C\";\n  }\n  /* string 3, char 67 */\n  74.7132714364%, 74.8488088476% {\n    content: \"By \";\n  }\n  /* string 3, char 68 */\n  74.8498088476%, 74.9853462589% {\n    content: \"By\";\n  }\n  /* string 3, char 69 */\n  74.9863462589%, 75.1218836701% {\n    content: \"B\";\n  }\n  /* string 3, char 70 */\n  75.1228836701%, 77.3064822501% {\n    content: \"​\";\n  }\n  /* string 4, char 1 */\n  77.3074822501%, 77.5249421081% {\n    content: \"B\";\n  }\n  /* string 4, char 2 */\n  77.5259421081%, 77.7434019661% {\n    content: \"Bu\";\n  }\n  /* string 4, char 3 */\n  77.7444019661%, 77.9618618241% {\n    content: \"Bui\";\n  }\n  /* string 4, char 4 */\n  77.9628618241%, 78.1803216821% {\n    content: \"Buil\";\n  }\n  /* string 4, char 5 */\n  78.1813216821%, 78.3987815401% {\n    content: \"Build\";\n  }\n  /* string 4, char 6 */\n  78.3997815401%, 78.6172413981% {\n    content: \"Build \";\n  }\n  /* string 4, char 7 */\n  78.6182413981%, 78.8357012561% {\n    content: \"Build w\";\n  }\n  /* string 4, char 8 */\n  78.8367012561%, 79.0541611141% {\n    content: \"Build wi\";\n  }\n  /* string 4, char 9 */\n  79.0551611141%, 79.2726209721% {\n    content: \"Build wit\";\n  }\n  /* string 4, char 10 */\n  79.2736209721%, 79.4910808301% {\n    content: \"Build with\";\n  }\n  /* string 4, char 11 */\n  79.4920808301%, 79.7095406881% {\n    content: \"Build with:\";\n  }\n  /* string 4, char 12 */\n  79.7105406881%, 79.9280005461% {\n    content: \"Build with: \";\n  }\n  /* string 4, char 13 */\n  79.9290005461%, 80.1464604042% {\n    content: \"Build with: A\";\n  }\n  /* string 4, char 14 */\n  80.1474604042%, 80.3649202622% {\n    content: \"Build with: AP\";\n  }\n  /* string 4, char 15 */\n  80.3659202622%, 80.5833801202% {\n    content: \"Build with: API\";\n  }\n  /* string 4, char 16 */\n  80.5843801202%, 80.8018399782% {\n    content: \"Build with: API \";\n  }\n  /* string 4, char 17 */\n  80.8028399782%, 81.0202998362% {\n    content: \"Build with: API ,\";\n  }\n  /* string 4, char 18 */\n  81.0212998362%, 81.2387596942% {\n    content: \"Build with: API , \";\n  }\n  /* string 4, char 19 */\n  81.2397596942%, 81.4572195522% {\n    content: \"Build with: API , J\";\n  }\n  /* string 4, char 20 */\n  81.4582195522%, 81.6756794102% {\n    content: \"Build with: API , JS\";\n  }\n  /* string 4, char 21 */\n  81.6766794102%, 81.8941392682% {\n    content: \"Build with: API , JS \";\n  }\n  /* string 4, char 22 */\n  81.8951392682%, 82.1125991262% {\n    content: \"Build with: API , JS ,\";\n  }\n  /* string 4, char 23 */\n  82.1135991262%, 82.3310589842% {\n    content: \"Build with: API , JS , \";\n  }\n  /* string 4, char 24 */\n  82.3320589842%, 82.5495188422% {\n    content: \"Build with: API , JS , S\";\n  }\n  /* string 4, char 25 */\n  82.5505188422%, 82.7679787002% {\n    content: \"Build with: API , JS , SC\";\n  }\n  /* string 4, char 26 */\n  82.7689787002%, 82.9864385582% {\n    content: \"Build with: API , JS , SCS\";\n  }\n  /* string 4, char 27 */\n  82.9874385582%, 94.2644287275% {\n    content: \"Build with: API , JS , SCSS\";\n  }\n  /* string 4, char 28 */\n  94.2654287275%, 94.4009661387% {\n    content: \"Build with: API , JS , SCS\";\n  }\n  /* string 4, char 29 */\n  94.4019661387%, 94.53750355% {\n    content: \"Build with: API , JS , SC\";\n  }\n  /* string 4, char 30 */\n  94.53850355%, 94.6740409612% {\n    content: \"Build with: API , JS , S\";\n  }\n  /* string 4, char 31 */\n  94.6750409612%, 94.8105783725% {\n    content: \"Build with: API , JS , \";\n  }\n  /* string 4, char 32 */\n  94.8115783725%, 94.9471157837% {\n    content: \"Build with: API , JS ,\";\n  }\n  /* string 4, char 33 */\n  94.9481157837%, 95.083653195% {\n    content: \"Build with: API , JS \";\n  }\n  /* string 4, char 34 */\n  95.084653195%, 95.2201906062% {\n    content: \"Build with: API , JS\";\n  }\n  /* string 4, char 35 */\n  95.2211906062%, 95.3567280175% {\n    content: \"Build with: API , J\";\n  }\n  /* string 4, char 36 */\n  95.3577280175%, 95.4932654287% {\n    content: \"Build with: API , \";\n  }\n  /* string 4, char 37 */\n  95.4942654287%, 95.62980284% {\n    content: \"Build with: API ,\";\n  }\n  /* string 4, char 38 */\n  95.63080284%, 95.7663402512% {\n    content: \"Build with: API \";\n  }\n  /* string 4, char 39 */\n  95.7673402512%, 95.9028776625% {\n    content: \"Build with: API\";\n  }\n  /* string 4, char 40 */\n  95.9038776625%, 96.0394150737% {\n    content: \"Build with: AP\";\n  }\n  /* string 4, char 41 */\n  96.0404150737%, 96.175952485% {\n    content: \"Build with: A\";\n  }\n  /* string 4, char 42 */\n  96.176952485%, 96.3124898962% {\n    content: \"Build with: \";\n  }\n  /* string 4, char 43 */\n  96.3134898962%, 96.4490273075% {\n    content: \"Build with:\";\n  }\n  /* string 4, char 44 */\n  96.4500273075%, 96.5855647187% {\n    content: \"Build with\";\n  }\n  /* string 4, char 45 */\n  96.5865647187%, 96.72210213% {\n    content: \"Build wit\";\n  }\n  /* string 4, char 46 */\n  96.72310213%, 96.8586395412% {\n    content: \"Build wi\";\n  }\n  /* string 4, char 47 */\n  96.8596395412%, 96.9951769525% {\n    content: \"Build w\";\n  }\n  /* string 4, char 48 */\n  96.9961769525%, 97.1317143637% {\n    content: \"Build \";\n  }\n  /* string 4, char 49 */\n  97.1327143637%, 97.268251775% {\n    content: \"Build\";\n  }\n  /* string 4, char 50 */\n  97.269251775%, 97.4047891862% {\n    content: \"Buil\";\n  }\n  /* string 4, char 51 */\n  97.4057891862%, 97.5413265975% {\n    content: \"Bui\";\n  }\n  /* string 4, char 52 */\n  97.5423265975%, 97.6778640087% {\n    content: \"Bu\";\n  }\n  /* string 4, char 53 */\n  97.6788640087%, 97.81440142% {\n    content: \"B\";\n  }\n  /* string 4, char 54 */\n  97.81540142%, 100% {\n    content: \"​\";\n  }\n}\n@keyframes beam-blink {\n  75% {\n    border-color: transparent;\n  }\n}\n* {\n  backface-visibility: hidden;\n}\n\n.footer-text {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(3px + 1.8vw);\n  font-family: \"VT323\", monospace, sans-serif;\n  color: rgba(170, 255, 0, 0.11);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.footer-text::after {\n  content: \"​\";\n  position: relative;\n  top: 0px;\n  display: inline-block;\n  padding-right: 3px;\n  padding-right: calc(3px + 0.1vw);\n  border-right: 10px solid rgba(170, 255, 0, 0.75);\n  border-right: calc(1.1vw + 4px) solid rgba(0, 0, 0, 0.001);\n  text-shadow: 0 0 5px rgba(170, 255, 0, 0.11);\n  white-space: nowrap;\n  animation: typed 36.62s linear 1s infinite, beam-blink 1s infinite;\n}\n@media (max-width: 900px) {\n  .footer-text::after {\n    font-size: 20px;\n  }\n}\n\n*,\n*::before,\n*::after {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nhtml,\nbody {\n  overflow: hidden;\n  margin-top: 0px;\n  height: 100%;\n  background-color: #1f1f1f;\n}\n\n.button-container {\n  grid-area: btn;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.container-main-section {\n  color: rgb(181, 255, 0);\n  content: \" \";\n  grid-area: main;\n  overflow-y: auto;\n}\n\n.container-footer-section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  grid-area: footer;\n}\n\n.container-home-section {\n  padding-bottom: 20px;\n  height: 95%;\n  display: grid;\n  grid-template-columns: repeat(8, 1fr);\n  grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;\n  grid-template-areas: \". header header header header header header .\" \"main main main main main main main main\" \". btn btn btn btn btn btn .\" \". footer footer footer footer footer footer .\";\n}\n\n.header {\n  margin-top: 15px;\n  grid-area: header;\n}\n\n.footer {\n  color: #1f1f1f;\n}\n\n.footer-text {\n  height: auto;\n}\n\n.one-news-div {\n  background-color: #1a1a1a;\n  margin-top: 1rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 100%;\n  height: max-content;\n  color: rgb(181, 255, 0);\n}\n\n.detail-div-top {\n  color: rgba(170, 255, 0, 0.379);\n  display: flex;\n  justify-content: space-between;\n}\n\n.div-link {\n  margin-top: 0.5rem;\n  color: rgba(170, 255, 0, 0.11);\n  display: flex;\n  justify-content: center;\n}\n\n.div-link a {\n  color: rgba(170, 255, 0, 0.379);\n  text-decoration: none;\n}\n\n.div-link a:hover {\n  color: rgb(181, 255, 0);\n}\n\n.one-news-title-container {\n  display: flex;\n  justify-content: center;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -432,45 +427,6 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 /* 11 */
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    options = {};
-  }
-  if (!url) {
-    return url;
-  }
-  url = String(url.__esModule ? url.default : url);
-
-  // If url is already wrapped in quotes, remove them
-  if (/^['"].*['"]$/.test(url)) {
-    url = url.slice(1, -1);
-  }
-  if (options.hash) {
-    url += options.hash;
-  }
-
-  // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
-  }
-  return url;
-};
-
-/***/ }),
-/* 12 */
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "1690cd3defa001b4f87e.png";
-
-/***/ }),
-/* 13 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -485,7 +441,7 @@ const API_ONE_DET_OBJ = "https://hacker-news.firebaseio.com/v0/item/";
 
 
 /***/ }),
-/* 14 */
+/* 12 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -513,7 +469,7 @@ function createUrl(index, API_ONE_DET_OBJ) {
 
 
 /***/ }),
-/* 15 */
+/* 13 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -599,7 +555,7 @@ function createOneNewsEl(
 
 
 /***/ }),
-/* 16 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
@@ -17807,7 +17763,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 17 */
+/* 15 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17815,22 +17771,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _helpers_bind_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23);
-/* harmony import */ var _core_Axios_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
-/* harmony import */ var _core_mergeConfig_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(25);
-/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(31);
-/* harmony import */ var _helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(33);
-/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(29);
-/* harmony import */ var _cancel_CancelToken_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(54);
-/* harmony import */ var _cancel_isCancel_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(53);
-/* harmony import */ var _env_data_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(20);
-/* harmony import */ var _helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(35);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(21);
-/* harmony import */ var _helpers_spread_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(55);
-/* harmony import */ var _helpers_isAxiosError_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(56);
-/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(26);
-/* harmony import */ var _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(57);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _helpers_bind_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21);
+/* harmony import */ var _core_Axios_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _core_mergeConfig_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(23);
+/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29);
+/* harmony import */ var _helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(31);
+/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(27);
+/* harmony import */ var _cancel_CancelToken_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(52);
+/* harmony import */ var _cancel_isCancel_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(51);
+/* harmony import */ var _env_data_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(18);
+/* harmony import */ var _helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(33);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(19);
+/* harmony import */ var _helpers_spread_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(53);
+/* harmony import */ var _helpers_isAxiosError_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(54);
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(24);
+/* harmony import */ var _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(55);
 
 
 
@@ -17920,7 +17876,7 @@ axios.default = axios;
 
 
 /***/ }),
-/* 18 */
+/* 16 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17928,14 +17884,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(22);
-/* harmony import */ var _helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(48);
-/* harmony import */ var _InterceptorManager_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
-/* harmony import */ var _dispatchRequest_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(28);
-/* harmony import */ var _mergeConfig_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(25);
-/* harmony import */ var _buildFullPath_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(45);
-/* harmony import */ var _helpers_validator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
-/* harmony import */ var _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(26);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(20);
+/* harmony import */ var _helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(46);
+/* harmony import */ var _InterceptorManager_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
+/* harmony import */ var _dispatchRequest_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(26);
+/* harmony import */ var _mergeConfig_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(23);
+/* harmony import */ var _buildFullPath_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(43);
+/* harmony import */ var _helpers_validator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(17);
+/* harmony import */ var _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(24);
 
 
 
@@ -18142,7 +18098,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].forEach(['post', 'put', 'patch
 
 
 /***/ }),
-/* 19 */
+/* 17 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18150,8 +18106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _env_data_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21);
+/* harmony import */ var _env_data_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
 
 
 
@@ -18246,7 +18202,7 @@ function assertOptions(options, schema, allowUnknown) {
 
 
 /***/ }),
-/* 20 */
+/* 18 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18257,7 +18213,7 @@ __webpack_require__.r(__webpack_exports__);
 const VERSION = "1.4.0";
 
 /***/ }),
-/* 21 */
+/* 19 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18265,7 +18221,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 
 
 
@@ -18369,7 +18325,7 @@ AxiosError.from = (error, code, config, request, response, customProps) => {
 
 
 /***/ }),
-/* 22 */
+/* 20 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18377,7 +18333,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _helpers_bind_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
+/* harmony import */ var _helpers_bind_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
 
 
 
@@ -19103,7 +19059,7 @@ const isThenable = (thing) =>
 
 
 /***/ }),
-/* 23 */
+/* 21 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19121,7 +19077,7 @@ function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 24 */
+/* 22 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19129,7 +19085,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 
 
 
@@ -19204,7 +19160,7 @@ class InterceptorManager {
 
 
 /***/ }),
-/* 25 */
+/* 23 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19212,8 +19168,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ mergeConfig)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
-/* harmony import */ var _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
 
 
 
@@ -19322,7 +19278,7 @@ function mergeConfig(config1, config2) {
 
 
 /***/ }),
-/* 26 */
+/* 24 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19330,8 +19286,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
-/* harmony import */ var _helpers_parseHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _helpers_parseHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(25);
 
 
 
@@ -19623,7 +19579,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].freezeMethods(AxiosHeaders);
 
 
 /***/ }),
-/* 27 */
+/* 25 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19631,7 +19587,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 
 
 
@@ -19690,7 +19646,7 @@ const ignoreDuplicateOf = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].toOb
 
 
 /***/ }),
-/* 28 */
+/* 26 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19698,12 +19654,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ dispatchRequest)
 /* harmony export */ });
-/* harmony import */ var _transformData_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(30);
-/* harmony import */ var _cancel_isCancel_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(53);
-/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(31);
-/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
-/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
-/* harmony import */ var _adapters_adapters_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(42);
+/* harmony import */ var _transformData_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
+/* harmony import */ var _cancel_isCancel_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(51);
+/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29);
+/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
+/* harmony import */ var _adapters_adapters_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(40);
 
 
 
@@ -19788,7 +19744,7 @@ function dispatchRequest(config) {
 
 
 /***/ }),
-/* 29 */
+/* 27 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19796,8 +19752,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
 
 
 
@@ -19826,7 +19782,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].inherits(CanceledError, _core_
 
 
 /***/ }),
-/* 30 */
+/* 28 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19834,9 +19790,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ transformData)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31);
-/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _defaults_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
 
 
 
@@ -19868,7 +19824,7 @@ function transformData(fns, response) {
 
 
 /***/ }),
-/* 31 */
+/* 29 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19876,13 +19832,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(21);
-/* harmony import */ var _transitional_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
-/* harmony import */ var _helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(35);
-/* harmony import */ var _helpers_toURLEncodedForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(34);
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(37);
-/* harmony import */ var _helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(19);
+/* harmony import */ var _transitional_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(33);
+/* harmony import */ var _helpers_toURLEncodedForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(32);
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(35);
+/* harmony import */ var _helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31);
 
 
 
@@ -20052,7 +20008,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['post', 'put', 'patch
 
 
 /***/ }),
-/* 32 */
+/* 30 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20070,7 +20026,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 33 */
+/* 31 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20078,7 +20034,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 
 
 
@@ -20174,7 +20130,7 @@ function formDataToJSON(formData) {
 
 
 /***/ }),
-/* 34 */
+/* 32 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20182,9 +20138,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ toURLEncodedForm)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _toFormData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(37);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _toFormData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(35);
 
 
 
@@ -20206,7 +20162,7 @@ function toURLEncodedForm(data, options) {
 
 
 /***/ }),
-/* 35 */
+/* 33 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20214,9 +20170,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(21);
-/* harmony import */ var _platform_node_classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(36);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(19);
+/* harmony import */ var _platform_node_classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(34);
 
 
 
@@ -20439,7 +20395,7 @@ function toFormData(obj, formData, options) {
 
 
 /***/ }),
-/* 36 */
+/* 34 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20452,7 +20408,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 37 */
+/* 35 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20460,9 +20416,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _classes_URLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(38);
-/* harmony import */ var _classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
-/* harmony import */ var _classes_Blob_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
+/* harmony import */ var _classes_URLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
+/* harmony import */ var _classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(38);
+/* harmony import */ var _classes_Blob_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(39);
 
 
 
@@ -20530,7 +20486,7 @@ const isStandardBrowserEnv = (() => {
 
 
 /***/ }),
-/* 38 */
+/* 36 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20538,7 +20494,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _helpers_AxiosURLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
+/* harmony import */ var _helpers_AxiosURLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
 
 
 
@@ -20546,7 +20502,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 39 */
+/* 37 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20554,7 +20510,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _toFormData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
+/* harmony import */ var _toFormData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
 
 
 
@@ -20616,7 +20572,7 @@ prototype.toString = function toString(encoder) {
 
 
 /***/ }),
-/* 40 */
+/* 38 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20630,7 +20586,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 41 */
+/* 39 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20644,7 +20600,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 42 */
+/* 40 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20652,10 +20608,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _http_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
-/* harmony import */ var _xhr_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(43);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _http_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
+/* harmony import */ var _xhr_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(19);
 
 
 
@@ -20718,7 +20674,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].forEach(knownAdapters, (fn, va
 
 
 /***/ }),
-/* 43 */
+/* 41 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20726,19 +20682,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(49);
-/* harmony import */ var _helpers_cookies_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(51);
-/* harmony import */ var _helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(48);
-/* harmony import */ var _core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(45);
-/* harmony import */ var _helpers_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(50);
-/* harmony import */ var _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(32);
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(21);
-/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(29);
-/* harmony import */ var _helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(52);
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(37);
-/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
-/* harmony import */ var _helpers_speedometer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(47);
+/* harmony import */ var _helpers_cookies_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(49);
+/* harmony import */ var _helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
+/* harmony import */ var _core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(43);
+/* harmony import */ var _helpers_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(48);
+/* harmony import */ var _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(30);
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(19);
+/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(27);
+/* harmony import */ var _helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(50);
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(35);
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
+/* harmony import */ var _helpers_speedometer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(42);
 
 
 
@@ -20995,7 +20951,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
 
 
 /***/ }),
-/* 44 */
+/* 42 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21061,7 +21017,7 @@ function speedometer(samplesCount, min) {
 
 
 /***/ }),
-/* 45 */
+/* 43 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21069,8 +21025,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildFullPath)
 /* harmony export */ });
-/* harmony import */ var _helpers_isAbsoluteURL_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(46);
-/* harmony import */ var _helpers_combineURLs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+/* harmony import */ var _helpers_isAbsoluteURL_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+/* harmony import */ var _helpers_combineURLs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
 
 
 
@@ -21095,7 +21051,7 @@ function buildFullPath(baseURL, requestedURL) {
 
 
 /***/ }),
-/* 46 */
+/* 44 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21121,7 +21077,7 @@ function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 47 */
+/* 45 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21147,7 +21103,7 @@ function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 48 */
+/* 46 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21155,8 +21111,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ buildURL)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
-/* harmony import */ var _helpers_AxiosURLSearchParams_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _helpers_AxiosURLSearchParams_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(37);
 
 
 
@@ -21223,7 +21179,7 @@ function buildURL(url, params, options) {
 
 
 /***/ }),
-/* 49 */
+/* 47 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21231,7 +21187,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ settle)
 /* harmony export */ });
-/* harmony import */ var _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
+/* harmony import */ var _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 
 
 
@@ -21262,7 +21218,7 @@ function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 50 */
+/* 48 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21270,8 +21226,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
 
 
 
@@ -21342,7 +21298,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 51 */
+/* 49 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21350,8 +21306,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
 
 
 
@@ -21407,7 +21363,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 52 */
+/* 50 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21424,7 +21380,7 @@ function parseProtocol(url) {
 
 
 /***/ }),
-/* 53 */
+/* 51 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21440,7 +21396,7 @@ function isCancel(value) {
 
 
 /***/ }),
-/* 54 */
+/* 52 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21448,7 +21404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _CanceledError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
+/* harmony import */ var _CanceledError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
 
 
 
@@ -21573,7 +21529,7 @@ class CancelToken {
 
 
 /***/ }),
-/* 55 */
+/* 53 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21612,7 +21568,7 @@ function spread(callback) {
 
 
 /***/ }),
-/* 56 */
+/* 54 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21620,7 +21576,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ isAxiosError)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 
 
 
@@ -21638,7 +21594,7 @@ function isAxiosError(payload) {
 
 
 /***/ }),
-/* 57 */
+/* 55 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21749,9 +21705,6 @@ Object.entries(HttpStatusCode).forEach(([key, value]) => {
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -21814,55 +21767,6 @@ Object.entries(HttpStatusCode).forEach(([key, value]) => {
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			0: 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -21874,11 +21778,11 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(17);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(15);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _costant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
-/* harmony import */ var _myService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
-/* harmony import */ var _elementService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(15);
+/* harmony import */ var _costant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+/* harmony import */ var _myService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
+/* harmony import */ var _elementService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
 // GENERAL IMPORT PROJECT //
 
  // import axios
@@ -21890,7 +21794,7 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORT OTHERS JS FILE PROJECT
 
 
-const _ = __webpack_require__(16);
+const _ = __webpack_require__(14);
 
 // INTERNAL COSTANT //
 
@@ -21929,6 +21833,7 @@ async function createPage(array_id_news) {
   }
   const mainElement = document.getElementById("main");
   mainElement.appendChild(pageElement);
+  document.getElementById("btn").innerHTML = "MORE";
 }
 
 // MAIN SECTION //
@@ -21942,6 +21847,16 @@ async function main_section() {
   //console.log(array500);
 
   createPage(array500);
+
+  document.getElementById("btn").addEventListener("click", function (event) {
+    // funzione quando clicco il bottone load-more
+    document.getElementById("btn").innerHTML = "LOADING ...";
+    //const spinner = document.getElementById("spinner-container"); // seleziono lo spinner
+    //spinner.style.display = "block"; // faccio comparire lo spinner a schermo
+    //document.getElementById("load-more").style.display = "none"; // tolgo il bottone "load more" finche' non ho scaricato e visualizzato le 10(x) news attuali
+    createPage(array500); // chiamo la funzione principale passandogli l'array gia' costruito in precedenza con la lista degli id delle news
+    //window.scrollTo(0, document.body.scrollHeight); // scroll till the end page
+  });
 }
 // START PROGRAM //
 

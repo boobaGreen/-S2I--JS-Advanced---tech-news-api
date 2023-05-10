@@ -6,7 +6,7 @@ $strings1: ("Hacker-News", "Hacker-News");
 
 // now for some timing (in seconds)
 $durCharFwd: 0.08; // character typed 0.1 dafault
-$durFullGap: 20; // time between typed/delete
+$durFullGap: 8; // time between typed/delete
 $durCharBwd: 0.05; // character deleted 0.08 default
 $durDoneGap: 1; // time between strings
 

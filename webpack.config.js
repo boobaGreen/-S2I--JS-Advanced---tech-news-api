@@ -8,11 +8,12 @@ const config = {
     clean: true,
   },
   devServer: {
+    port: 9000,
     open: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: "asset/img/favicon.ico",
+      favicon: "./asset/img/favicon.ico",
       filename: "index.html", // in alcuna documentazione e' filename
       title: "test",
       template: "asset/html/index.html",
@@ -30,6 +31,10 @@ const config = {
         exclude: /node-modules/,
       },
       // test html-loader va qui se installato ma sembra non necessario forse fa le stesse cose
+      {
+        test: /\.(ico)$/,
+        use: "file-loader?name=assets/[name].[ext]",
+      },
     ],
   },
 };

@@ -1,6 +1,5 @@
 @import "font";
 @import "color";
-@import "background";
 @import "titleHeader";
 @import "buttonGlow";
 @import "footerStyle";
@@ -99,7 +98,7 @@ body {
 
 .div-link {
   margin-top: 0.5rem;
-  color: $color-secondary-bis;
+
   display: flex;
   justify-content: center;
 }
