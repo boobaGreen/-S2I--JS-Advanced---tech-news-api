@@ -48,6 +48,7 @@ async function createPage(array_id_news) {
   }
   const mainElement = document.getElementById("main");
   mainElement.appendChild(pageElement);
+  document.getElementById("btn").innerHTML = "MORE";
 }
 
 // MAIN SECTION //
@@ -61,6 +62,16 @@ async function main_section() {
   //console.log(array500);
 
   createPage(array500);
+
+  document.getElementById("btn").addEventListener("click", function (event) {
+    // funzione quando clicco il bottone load-more
+    document.getElementById("btn").innerHTML = "LOADING ...";
+    //const spinner = document.getElementById("spinner-container"); // seleziono lo spinner
+    //spinner.style.display = "block"; // faccio comparire lo spinner a schermo
+    //document.getElementById("load-more").style.display = "none"; // tolgo il bottone "load more" finche' non ho scaricato e visualizzato le 10(x) news attuali
+    createPage(array500); // chiamo la funzione principale passandogli l'array gia' costruito in precedenza con la lista degli id delle news
+    //window.scrollTo(0, document.body.scrollHeight); // scroll till the end page
+  });
 }
 // START PROGRAM //
 

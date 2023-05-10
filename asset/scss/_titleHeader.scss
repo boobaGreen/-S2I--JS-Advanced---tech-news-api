@@ -2,11 +2,11 @@
 
 // Love dynamically typed text? You're gonna love this
 // Edit these strings to see them typed on the screen:
-$strings1: ("Hacker-News");
+$strings1: ("Hacker-News", "Hacker-News");
 
 // now for some timing (in seconds)
 $durCharFwd: 0.08; // character typed 0.1 dafault
-$durFullGap: 25; // time between typed/delete
+$durFullGap: 20; // time between typed/delete
 $durCharBwd: 0.05; // character deleted 0.08 default
 $durDoneGap: 1; // time between strings
 
@@ -112,7 +112,7 @@ $currentPercentage: 0;
     }
     display: inline-block;
     padding-right: 3px;
-    padding-right: calc(3px + 0.1vw);
+    padding-right: calc(5px + 1vw);
     border-right: 10px solid rgba($color-primary, 0.75);
     border-right: calc(1.1vw + 4px) solid rgba($color-primary, 0.75);
     text-shadow: 0 0 5px $color-primary;

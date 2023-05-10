@@ -109,15 +109,15 @@
 // Love dynamically typed text? You're gonna love this
 // Edit these strings to see them typed on the screen:
 $strings: (
-  "By Claudio Dall'Ara For Star2Impact"
-    "Build with:JS,API,LODASH,AXIOS,WEBPACK5"
+  "By Claudio Dall'Ara For Star2Impact" "Build with : LODASH, AXIOS , WEBPACK5"
+    "By Claudio Dall'Ara For Star2Impact" "Build with: API , JS , SCSS"
 );
 
 // now for some timing (in seconds)
 $durCharFwd: 0.08; // character typed 0.1 dafault
-$durFullGap: 8; // time between typed/delete
+$durFullGap: 4; // time between typed/delete
 $durCharBwd: 0.05; // character deleted 0.08 default
-$durDoneGap: 1; // time between strings
+$durDoneGap: 0.8; // time between strings
 
 // initializing some variables and functions ✊🏼
 $charCount: 0;
@@ -217,8 +217,8 @@ $currentPercentage: 0;
     content: "​"; // zero-width space to retain element height
     position: relative;
     top: -0px; // IMPORTANT WHERE PUT TITLE
-    @media (max-width: 575px) {
-      top: -0px; // IMPORTANT WHERE PUT TITLE max-width: 575px
+    @media (max-width: 900px) {
+      font-size: 20px; // IMPORTANT WHERE PUT TITLE max-width: 575px
     }
     display: inline-block;
     padding-right: 3px;

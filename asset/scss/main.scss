@@ -15,6 +15,7 @@
 
 html,
 body {
+  overflow: hidden;
   margin-top: 0px;
 
   height: 100%;
@@ -37,18 +38,20 @@ body {
   // max-height: 50vh;
   content: " ";
   grid-area: main;
-  overflow: auto;
+  overflow-y: auto;
 }
 .container-footer-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   grid-area: footer;
 }
 // principal container
 .container-home-section {
-  height: 100%;
+  padding-bottom: 20px;
+
+  height: 95%;
   display: grid;
 
   grid-template-columns: repeat(8, 1fr); // creo grilia 8 x colonne
@@ -78,6 +81,7 @@ body {
 
 .one-news-div {
   background-color: $color-background-secondary;
+
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -94,6 +98,7 @@ body {
 }
 
 .div-link {
+  margin-top: 0.5rem;
   color: $color-secondary-bis;
   display: flex;
   justify-content: center;
