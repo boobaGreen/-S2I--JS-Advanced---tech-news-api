@@ -14,7 +14,12 @@
 
 html,
 body {
+  /////prevent cursor and click higlight text
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   overflow: hidden;
+  //////////////////////////////////////
   margin-top: 0px;
 
   height: 100%;
