@@ -44,13 +44,14 @@ body {
   grid-area: main;
   overflow-y: auto;
   // scroll bar style for firefox
-  scrollbar-color: $color-secondary $color-background;
+  scrollbar-color: $color-primary $color-background; // no comma!!!!!!!
   scrollbar-width: thin;
+
   //
 }
 // scroll bar style for chrome
 .container-main-section::-webkit-scrollbar {
-  width: 8px;
+  width: 20px;
   height: auto;
   // background: $color-secondary;
   // background-color: green;
