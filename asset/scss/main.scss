@@ -170,6 +170,7 @@ body {
 .news-time {
   display: flex;
   justify-content: left;
+  color: $color-secondary;
 }
 
 .news-author {
@@ -177,4 +178,11 @@ body {
   align-items: end;
   justify-content: center;
   color: $color-secondary-bis; // color author
+}
+
+.ptime {
+  border-radius: 10%;
+  padding: 3px;
+  border-top: 1px solid $color-secondary;
+  background-color: $color-background-secondary;
 }

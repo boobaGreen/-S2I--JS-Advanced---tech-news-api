@@ -19,13 +19,18 @@ export function createOneNewsEl(
   detailTopBoxElement.classList.add("detail-div-top");
 
   // TIME SECTION
-  const timeEl = document.createElement("p");
+  const timeEl = document.createElement("div");
   timeEl.classList.add("news-time");
+
+  const timeElp = document.createElement("p");
+  timeElp.classList.add("ptime");
+
   let str = "Masteringjs.ioF";
   str.slice(0, -1); // Masteringjs.io
-  timeEl.innerHTML = newsHumanTime;
+  timeElp.innerHTML = newsHumanTime;
+  timeEl.appendChild(timeElp);
   detailTopBoxElement.appendChild(timeEl);
-  // APPEND FIRST BLOCK
+
   // LINK SECTION
   const divLink = document.createElement("div");
   divLink.classList.add("div-link");
