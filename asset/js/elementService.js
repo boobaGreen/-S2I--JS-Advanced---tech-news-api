@@ -35,10 +35,10 @@ export function createOneNewsEl(
   newsLinkEl.target = "blank";
   if (!newsLink) {
     const pNewsForNotLinked = document.createElement("p");
-    pNewsForNotLinked.innerHTML = "No Link available";
+    pNewsForNotLinked.innerHTML = "n" + "&#47" + "a";
     divLink.appendChild(pNewsForNotLinked);
   } else {
-    newsLinkEl.innerHTML = "Source : LINK";
+    newsLinkEl.innerHTML = "source";
     divLink.appendChild(newsLinkEl);
   }
   detailTopBoxElement.appendChild(divLink);
