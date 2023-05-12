@@ -25,29 +25,8 @@ export function createOneNewsEl(
   str.slice(0, -1); // Masteringjs.io
   timeEl.innerHTML = newsHumanTime;
   detailTopBoxElement.appendChild(timeEl);
-  //APPEND FIRST BLOCK
-
-  // AUTHOR
-  const newsAuthEl = document.createElement("p");
-  newsAuthEl.classList.add("news-author");
-  newsAuthEl.innerHTML = "By : " + newsAuthor;
-  detailTopBoxElement.appendChild(newsAuthEl);
-
-  // SECTION FOR 1 NEWS TITLE-CREATE
-  const oneNewsTitleContainer = document.createElement("div");
-  oneNewsTitleContainer.classList.add("one-news-title-container"); // vedere se serve questa classe altrimenti toglierla
-
-  const newsTitleEl = document.createElement("h2");
-  newsTitleEl.classList.add("news-title"); // vedere se serve questa classe altrimenti toglierla
-  newsTitleEl.innerHTML = newsTitle;
-
-  oneNewsTitleContainer.appendChild(newsTitleEl);
-
-  /////////////////////////////////////////////////////////////////////
-
-  ////////////////////////////////////////////////////////////////////
-  // SECTION FOR LINK
-
+  // APPEND FIRST BLOCK
+  // LINK SECTION
   const divLink = document.createElement("div");
   divLink.classList.add("div-link");
   const newsLinkEl = document.createElement("a");
@@ -62,10 +41,28 @@ export function createOneNewsEl(
     newsLinkEl.innerHTML = "Source : LINK";
     divLink.appendChild(newsLinkEl);
   }
+  detailTopBoxElement.appendChild(divLink);
+
+  // SECTION FOR 1 NEWS TITLE-CREATE
+  const oneNewsTitleContainer = document.createElement("div");
+  oneNewsTitleContainer.classList.add("one-news-title-container"); // vedere se serve questa classe altrimenti toglierla
+
+  const newsTitleEl = document.createElement("h2");
+  newsTitleEl.classList.add("news-title"); // vedere se serve questa classe altrimenti toglierla
+  newsTitleEl.innerHTML = newsTitle;
+
+  oneNewsTitleContainer.appendChild(newsTitleEl);
+
+  /////////////////////////////////////////////////////////////////////
+
+  // AUTHOR
+  const newsAuthEl = document.createElement("p");
+  newsAuthEl.classList.add("news-author");
+  newsAuthEl.innerHTML = "By : " + newsAuthor;
 
   oneNewsElement.appendChild(detailTopBoxElement);
   oneNewsElement.appendChild(oneNewsTitleContainer);
-  oneNewsElement.appendChild(divLink);
+  oneNewsElement.appendChild(newsAuthEl);
 
   PageEl.appendChild(oneNewsElement);
 }

@@ -117,15 +117,24 @@ body {
 }
 
 .one-news-div {
-  background-color: $color-background-secondary;
+  background-color: $color-background;
 
-  margin-top: 1rem;
+  //margin-top: 2rem;
   display: flex;
+  gap: 0.6rem;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   height: max-content;
   color: $color-primary;
+}
+// one line each news -- minimal
+.one-news-div::after {
+  content: "";
+  display: inherit;
+  width: 45%;
+  margin: 10px auto;
+  border-top: 1px solid $color-secondary;
 }
 
 .detail-div-top {
@@ -135,19 +144,17 @@ body {
 }
 
 .div-link {
-  margin-top: 0.5rem;
-
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .div-link a {
-  color: $color-lighter;
+  color: $color-light;
   text-decoration: none;
 }
 
 .div-link a:hover {
-  color: $color-primary;
+  color: $color-lighter;
 }
 
 .one-news-title-container {
@@ -156,7 +163,7 @@ body {
 }
 
 .news-time,
-.news-author {
+.div-link {
   width: 50%;
 }
 
@@ -166,7 +173,14 @@ body {
   justify-content: center;
 }
 
-.news-author {
+.div-link {
   display: flex;
   justify-content: left;
+}
+
+.news-author {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: $color-secondary;
 }
