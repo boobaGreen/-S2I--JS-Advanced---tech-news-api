@@ -98,7 +98,7 @@ body {
 .detail-div-top {
   color: $color-secondary;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .div-link {
@@ -120,4 +120,20 @@ body {
 .one-news-title-container {
   display: flex;
   justify-content: center;
+}
+
+.news-time,
+.news-author {
+  width: 50%;
+}
+
+.news-time {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-author {
+  display: flex;
+  justify-content: leftr;
 }

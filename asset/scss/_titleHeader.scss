@@ -107,9 +107,9 @@ $currentPercentage: 0;
     content: "​"; // zero-width space to retain element height
     position: relative;
     top: -13px; // IMPORTANT WHERE PUT TITLE
-    @media (max-width: 575px) {
+    /*   @media (max-width: 575px) {
       top: -33px; // IMPORTANT WHERE PUT TITLE max-width: 575px
-    }
+    } */
     display: inline-block;
     padding-right: 3px;
     padding-right: calc(5px + 1vw);

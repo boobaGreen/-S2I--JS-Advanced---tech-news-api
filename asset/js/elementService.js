@@ -21,6 +21,8 @@ export function createOneNewsEl(
   // TIME SECTION
   const timeEl = document.createElement("p");
   timeEl.classList.add("news-time");
+  let str = "Masteringjs.ioF";
+  str.slice(0, -1); // Masteringjs.io
   timeEl.innerHTML = newsHumanTime;
   detailTopBoxElement.appendChild(timeEl);
   //APPEND FIRST BLOCK
@@ -61,11 +63,6 @@ export function createOneNewsEl(
     divLink.appendChild(newsLinkEl);
   }
 
-  // SECTION FOR AUTHOR
-
-  /////////////////////////////////////////
-
-  ////////////////////////////////
   oneNewsElement.appendChild(detailTopBoxElement);
   oneNewsElement.appendChild(oneNewsTitleContainer);
   oneNewsElement.appendChild(divLink);

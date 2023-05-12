@@ -37,7 +37,12 @@ async function createPage(array_id_news) {
     let linkActual = _.get(newsX, "data.url");
     let epochTimeActual = _.get(newsX, "data.time"); // epoch time to convert in Human format
     let authorActual = _.get(newsX, "data.by");
-    let humanTimeActual = convertTime(epochTimeActual); // richiamo mia funzione esterna per convertire epoch time in human time
+
+    let longhumanTimeActual = convertTime(epochTimeActual); // richiamo mia funzione esterna per convertire epoch time in human time 12/05/2023 11:46
+    let last5 = longhumanTimeActual.slice(-5);
+    console.log(last5); // 11:46
+    let humanTimeActual = last5;
+    //
     createOneNewsEl(
       titleActual,
       linkActual,
