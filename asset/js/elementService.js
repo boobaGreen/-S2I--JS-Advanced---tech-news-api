@@ -43,7 +43,8 @@ export function createOneNewsEl(
     pNewsForNotLinked.innerHTML = "n" + "&#47" + "a";
     divLink.appendChild(pNewsForNotLinked);
   } else {
-    newsLinkEl.innerHTML = "source";
+    // newsLinkEl.innerHTML = "&#x2148"; // sign info "i" green
+    newsLinkEl.innerHTML = "&#8618"; //&hookrightarrow
     divLink.appendChild(newsLinkEl);
   }
   detailTopBoxElement.appendChild(divLink);
