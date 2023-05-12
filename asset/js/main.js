@@ -68,6 +68,17 @@ async function main_section() {
 
   createPage(array500);
 
+  /////////////////////////////////////////////////////////
+  //refresh when click header
+
+  document.getElementById("header").addEventListener("click", cl_Div);
+
+  function cl_Div() {
+    location.reload();
+  }
+
+  //////////////////////////////////////////////////////////
+  //refresh when click header end
   document.getElementById("btn").addEventListener("click", function (event) {
     // funzione quando clicco il bottone load-more
     document.getElementById("btn").innerHTML = "LOADING";

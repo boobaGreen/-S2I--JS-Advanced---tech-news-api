@@ -91,13 +91,13 @@ body {
   height: 95%;
   display: grid;
 
-  grid-template-columns: repeat(8, 1fr); // creo grilia 8 x colonne
+  grid-template-columns: repeat(10, 1fr); // creo grilia 8 x colonne
   grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;
   grid-template-areas:
-    ". header header header header header header ."
-    ". main main main main main main ."
-    ". btn btn btn btn btn btn ."
-    ". footer footer footer footer footer footer .";
+    ". . header header header header header header . ."
+    ". . main main main main main main . ."
+    ". . btn btn btn btn btn btn . ."
+    ". . footer footer footer footer footer footer . .";
 }
 
 .header {
@@ -105,7 +105,7 @@ body {
   // position: sticky; // forse da fastidio a griglio!
   margin-top: 15px;
   grid-area: header;
-  //max-height: 20vh;
+  cursor: pointer; // pinter on hover in title header zone
 }
 
 .footer-text {
@@ -126,6 +126,8 @@ body {
 }
 // one line each news -- minimal
 .one-news-div::after {
+  position: relative;
+  right: -5px;
   content: "";
   display: inherit;
   width: 45%;
@@ -142,16 +144,17 @@ body {
 .div-link {
   display: flex;
   justify-content: right;
+  padding-right: 1em;
 }
 
 .div-link a {
-  color: $color-primary; // color link not hover
+  color: $color-secondary-light; // color link not hover
   text-decoration: none;
 }
 
 .div-link a:hover {
   // color link hover
-  color: $color-lighter;
+  color: $color-primary;
 }
 
 .one-news-title-container {
@@ -165,12 +168,6 @@ body {
 }
 
 .news-time {
-  width: 75%;
-  display: flex;
-  justify-content: center;
-}
-
-.div-link {
   display: flex;
   justify-content: left;
 }
