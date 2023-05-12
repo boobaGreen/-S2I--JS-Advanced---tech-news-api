@@ -27,7 +27,7 @@
     text-decoration: none;
     color: $color-secondary; // color internal social logo
     margin: 0 15px;
-    transition: 0.5s;
+    transition: 0s;
   }
   ul li a span {
     position: absolute;
@@ -224,7 +224,8 @@ $currentPercentage: 0;
     padding-right: 3px;
     padding-right: calc(3px + 0.1vw);
     border-right: 10px solid rgba($color-secondary-bis, 0.75);
-    border-right: calc(1.1vw + 4px) solid rgba(black, 0.001);
+    border-right: calc(1.1vw + 4px) solid
+      rgba($color-background-secondary, 0.001);
     text-shadow: 0 0 5px $color-secondary-bis;
     white-space: nowrap;
     animation: typed #{$durTotal + "s"} linear 1s infinite,
