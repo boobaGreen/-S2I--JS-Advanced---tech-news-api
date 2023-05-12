@@ -95,7 +95,7 @@ body {
   grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;
   grid-template-areas:
     ". header header header header header header ."
-    "main main main main main main main main"
+    ". main main main main main main ."
     ". btn btn btn btn btn btn ."
     ". footer footer footer footer footer footer .";
 }
