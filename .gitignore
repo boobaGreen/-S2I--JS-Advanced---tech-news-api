@@ -5,6 +5,5 @@ note.txt
 # file .env
 .env
 # dist
-dist/
 /dist
 
