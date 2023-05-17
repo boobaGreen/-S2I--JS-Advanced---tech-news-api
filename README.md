@@ -12,9 +12,9 @@
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="30" height="30"/>&nbsp;&nbsp;&nbsp; SASS </br>
 
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/>&nbsp;&nbsp;&nbsp; GIT </br>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack" width="30" height="30" />&nbsp;&nbsp;&nbsp; WEBPACK </br>
+
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/>&nbsp;&nbsp;&nbsp; GIT </br>
 
 External libraries used for the project are:</br>
 </br>
