@@ -98,7 +98,7 @@ the "MORE" button to load another 10 news items is green in idle status, while t
 
 ---
 
-![package.json](asset/img/packagefoto.pngKiku.jpg)
+![package.json](asset/img/packagefoto.jpg)
 
 ---
 
