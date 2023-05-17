@@ -128,11 +128,12 @@ body {
 // one line each news -- minimal
 .one-news-div::after {
   position: relative;
-
+  width: 10%;
+  top: 50%;
+  left: 45%;
   content: "";
   display: inherit;
-  width: 10%;
-  margin: auto auto;
+
   border-top: 1px solid $color-secondary; // color line under news
 }
 
