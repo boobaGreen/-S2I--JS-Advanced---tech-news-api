@@ -1,4 +1,4 @@
-<h2 align="center">Hacker News</h2>
+<h1 align="center">Hacker News</h1>
 
 <h3>Build with : </h3>
 
