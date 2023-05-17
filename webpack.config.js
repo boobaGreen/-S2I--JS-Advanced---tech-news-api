@@ -1,3 +1,6 @@
+// API KEY IMPORT FROM .ENV FOR ES6
+const Dotenv = require("dotenv-webpack");
+
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = {
@@ -18,6 +21,7 @@ const config = {
       title: "test",
       template: "asset/html/index.html",
     }),
+    new Dotenv(),
   ],
   mode: "none",
   module: {

@@ -1,3 +1,8 @@
+// API KEY IMPORT FROM .ENV FOR ES6
+const API_500_IDO_OBJ = process.env.API_500_IDO_OBJ;
+const API_ONE_DET_OBJ = process.env.API_ONE_DET_OBJ;
+console.log(API_500_IDO_OBJ);
+console.log(API_ONE_DET_OBJ);
 // GENERAL IMPORT PROJECT //
 
 import axios, { isCancel, AxiosError } from "axios"; // import axios
@@ -5,7 +10,7 @@ import "../scss/main.scss"; // import scss for webpack
 
 // SERVICE EXTERNAL SECTION //
 
-import { API_500_IDO_OBJ, API_ONE_DET_OBJ } from "./costant"; // IMPORT MY COSTANT FOR API REQUEST
+//import { API_500_IDO_OBJ, API_ONE_DET_OBJ } from "./costant"; // IMPORT MY COSTANT FOR API REQUEST
 // IMPORT OTHERS JS FILE PROJECT
 import { createUrl, convertTime } from "./myService";
 import { createPageElement, createOneNewsEl } from "./elementService";
@@ -25,6 +30,8 @@ function getApi500News() {
   return axios.get(API_500_IDO_OBJ); // RETURN a PROMISE -- Obj>Array[500] ID NEWS
 }
 function getApiOneDet(index) {
+  console.log("api 2 ", API_ONE_DET_OBJ);
+  console.log("url ", createUrl(index, API_ONE_DET_OBJ));
   return axios.get(createUrl(index, API_ONE_DET_OBJ)); // RETURN a PROMISE -- OBJ Detail One News ".data...."
 }
 
@@ -33,6 +40,7 @@ async function createPage(array_id_news) {
 
   for (let i = actual_index; i < actual_index + news_per_page; i++) {
     let newsX = await getApiOneDet(array_id_news[i]); // chiamata alla seconda API per i dettagli di ogni news
+    console.log("NEWSX:", newsX);
     let titleActual = _.get(newsX, "data.title");
     let linkActual = _.get(newsX, "data.url");
     let epochTimeActual = _.get(newsX, "data.time"); // epoch time to convert in Human format
@@ -63,10 +71,11 @@ async function createPage(array_id_news) {
 
 async function main_section() {
   obj500 = await getApi500News();
+  console.log("OBJ500 :", obj500);
 
   //console.log(obj500);
   let array500 = obj500.data; // prendo dell'oggetto solo i dati che mi interessano quindi l'array
-
+  console.log("ARRAY :", array500);
   //console.log(array500);
 
   createPage(array500);
