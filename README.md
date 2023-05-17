@@ -20,11 +20,11 @@
 
 ---
 
-Context : Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course.
+Context : </br> Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course.
 
 ---
 
-Requests : At startup, the application will have to display the list of the latest news available by displaying the title, the link and the date of the news. He will then have to contact the API (as per the documentation) of the external Hacker News service to retrieve the list of latest news IDs. For each ID, the application will have to contact another API of the Hacker News service to obtain the information to be displayed such as the title, link and date of the news.
+Requests : </br> At startup, the application will have to display the list of the latest news available by displaying the title, the link and the date of the news. He will then have to contact the API (as per the documentation) of the external Hacker News service to retrieve the list of latest news IDs. For each ID, the application will have to contact another API of the Hacker News service to obtain the information to be displayed such as the title, link and date of the news.
 
 See here for example where 27933223 represents the ID present in the previous call to the service.
 
@@ -45,11 +45,11 @@ If the user clicks on the "Load more" button, the application will have to take 
 
 ---
 
-Screenshots : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
+Screenshots : </br> ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
 
 ---
 
-Idea & Technical path:
+Idea & Technical path : </br>
 I first tried to make everything work with a version with no particular graphical identity.
 I first made small projects to manage LODASH and AXIOS independently, I wanted to understand how to manage libraries correctly, both with CDNs and installing them with NPM. I later implemented them in the general program. The list with the 500 news IDs is loaded when the page is loaded and kept in memory, it is reloaded and completely updated only when the page is refreshed from the browser or by pressing on the site title "HACKER-NEWS".
 at this point I began to understand how to manage WEBPACK5 and I did several days of study on the subject because I had underestimated it, it is very interesting but its logic in the first instance left me with many doubts and perplexities, which is why I dedicated it to dedicated in-depth study days.
@@ -58,13 +58,13 @@ I managed to manage everything on GithubPage implemented a "deploy" branch where
 
 ---
 
-Previous Versions:
+Previous Versions : </br>
 The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
 Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)
 
 ---
 
-🔗 Social Links
+🔗 Social Links </br>
 
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
 
