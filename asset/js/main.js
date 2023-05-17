@@ -54,6 +54,9 @@ async function createPage(array_id_news) {
   const mainElement = document.getElementById("main");
   mainElement.appendChild(pageElement);
   document.getElementById("btn").innerHTML = "MORE";
+  document.getElementById("btn").style.backgroundColor =
+    "rgba(170, 255, 0, 0.661)";
+  document.getElementById("btn").style.color = "rgba(170, 255, 0, 0.661)";
 }
 
 // MAIN SECTION //
@@ -82,17 +85,18 @@ async function main_section() {
   document.getElementById("btn").addEventListener("click", function (event) {
     // funzione quando clicco il bottone load-more
     document.getElementById("btn").innerHTML = "LOADING";
-    //const spinner = document.getElementById("spinner-container"); // seleziono lo spinner
-    //spinner.style.display = "block"; // faccio comparire lo spinner a schermo
-    //document.getElementById("load-more").style.display = "none"; // tolgo il bottone "load more" finche' non ho scaricato e visualizzato le 10(x) news attuali
+    document.getElementById("btn").style.backgroundColor = "red";
+    document.getElementById("btn").style.color = "orange";
+
     createPage(array500); // chiamo la funzione principale passandogli l'array gia' costruito in precedenza con la lista degli id delle news
-    //window.scrollTo(0, document.body.scrollHeight); // scroll till the end page
   });
 }
 // START PROGRAM //
 
 window.addEventListener("DOMContentLoaded", () => {
   //setGenPageLayout();
+  document.getElementById("btn").style.backgroundColor = "red";
+  document.getElementById("btn").style.color = "orange";
   main_section();
 });
 
