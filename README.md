@@ -72,6 +72,32 @@ Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title a
 
 ---
 
+Design and graphic : </br>
+
+once the project was made functional I wanted to give it a more appropriate graphic aspect.
+The idea is to do something suitable for technology enthusiasts and I came up with the idea of ​​a retro style terminal, the application will be a single page obviously and I chose to make the header and footer sticky leaving it scrollable the central part with the news.
+HP is inspired by several open source projects, then customizing them all with graphics that are consistent with each other and the project:
+
+Social : </br>
+[SocialPart1]https://codepen.io/Stockin/pen/bzdNOq
+[SocialPart2]https://freefrontend.com/css-social-media-icons/
+
+---
+
+Button : </br>
+[ButtonPart1]https://codepen.io/kocsten/pen/rggjXp
+[ButtonPart2]https://dev.to/webdeasy/top-20-css-buttons-animations-f41
+
+---
+
+Animation Title : </br>
+[AnimationTitle1]https://freefrontend.com/css-typing-text/
+[AnimationTitle2]https://codepen.io/brandonmcconnell/pen/bZqGdw
+
+the "MORE" button to load another 10 news items is green in idle status, while the data from the API is being downloaded, the button takes on orange shades and the writing becomes "LOADING".
+
+---
+
 🔗 Social Links </br>
 
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
