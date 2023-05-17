@@ -17,6 +17,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack" width="30" height="30" />&nbsp;&nbsp;&nbsp; WEBPACK </br>
 
 External libraries used for the project are:</br>
+</br>
 -AXIOS</br>
 </br>
 -LODASH</br>
