@@ -77,6 +77,8 @@ body {
   background: $color-primary;
 } */
 .container-footer-section {
+  position: relative;
+  bottom: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -88,10 +90,8 @@ body {
 // principal container
 .container-home-section {
   padding-bottom: 20px;
-
   height: 95%;
   display: grid;
-
   grid-template-columns: repeat(10, 1fr); // creo grilia 8 x colonne
   grid-template-rows: 0.5fr 2fr 0.5fr 0.1fr;
   grid-template-areas:
@@ -162,6 +162,7 @@ body {
 .one-news-title-container {
   display: flex;
   justify-content: center;
+  color: $color-lighter;
 }
 
 .news-time,
@@ -183,10 +184,11 @@ body {
 }
 
 .ptime {
+  padding: 5px;
   border-radius: 15%;
   padding-top: 6px;
-  border-top: 1px solid $color-secondary;
-  border-bottom: 1px solid $color-secondary;
+  border-right: 1px solid $color-secondary;
+  border-left: 1px solid $color-secondary;
   //background-color: $color-background-secondary;
 }
 

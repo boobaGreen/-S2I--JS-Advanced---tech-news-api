@@ -24,7 +24,7 @@ const config = {
     rules: [
       {
         test: /\.scss?$/,
-        use: ["style-loader", "css-loader", "sass-loader"], // prima intsallare con npm sia css che sass
+        use: ["style-loader", "css-loader", "sass-loader"], // prima installare con npm sia css che sass
         //npm install --save-dev style-loader css-loader
         //npm install --save-dev sass sass-loader
         // prima carica scss-order poi css-loader poi style-loader
