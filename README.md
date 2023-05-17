@@ -45,7 +45,7 @@ If the user clicks on the "Load more" button, the application will have to take 
 
 ---
 
-Screenshots : </br> ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
+Screenshot : </br> ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
 
 ---
 
