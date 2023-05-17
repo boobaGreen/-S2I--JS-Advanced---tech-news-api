@@ -1,5 +1,9 @@
-dist/
+# directory npm
 /node_modules
+# my-note-file
 note.txt
+# file .env
 .env
+# dist
+dist/
 
