@@ -98,6 +98,10 @@ the "MORE" button to load another 10 news items is green in idle status, while t
 
 ---
 
+![package.json](asset/img/packagefoto.pngKiku.jpg)
+
+---
+
 🔗 Social Links </br>
 
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
