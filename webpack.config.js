@@ -34,7 +34,7 @@ const config = {
         // prima carica scss-order poi css-loader poi style-loader
         exclude: /node-modules/,
       },
-      // test html-loader va qui se installato ma sembra non necessario forse fa le stesse cose
+
       {
         test: /\.(ico)$/,
         use: "file-loader?name=assets/[name].[ext]",

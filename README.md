@@ -29,7 +29,7 @@ If the user clicks on the "Load more" button, the application will have to take 
 
 ---
 
-Screenshots : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/assets/img/scr.png)
+Screenshots : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
 
 ---
 
@@ -44,7 +44,7 @@ I managed to manage everything on GithubPage implemented a "deploy" branch where
 
 Previous Versions:
 The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
-Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/assets/img/apioldfoto.png)
+Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)
 
 ---
 
