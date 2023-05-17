@@ -18,9 +18,12 @@
 
 External libraries used for the project are:</br>
 </br>
--AXIOS</br>
-</br>
--LODASH</br>
+
+- AXIOS</br>
+  </br>
+- LODASH</br>
+  </br>
+- DOTENV</br>
 
 -------------------HACKER-NEWS-------------------
 

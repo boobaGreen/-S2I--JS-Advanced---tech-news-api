@@ -1,6 +1,5 @@
 // API KEY IMPORT FROM .ENV FOR ES6
 const Dotenv = require("dotenv-webpack");
-
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = {
