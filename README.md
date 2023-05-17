@@ -75,6 +75,16 @@ Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title a
 
 ---
 
+in this project the thing that took me the most effort was the correct and orderly management of the files, the management of the .env file and the management of webpack with the installation and correct management of the necessary plugins including the correct implementation in the webpack.config.js file with the various options needed to complete correctly and understand their meaning.</br>
+
+here are some images to summarize the management just mentioned: </br>
+
+![package.json](/asset/img/packagefoto.png)</br>
+![package.json](/asset/img/packagefoto.png)</br>
+![package.json](/asset/img/packagefoto.png)</br>
+
+---
+
 Design and graphic : </br>
 
 once the project was made functional I wanted to give it a more appropriate graphic aspect.
@@ -101,7 +111,9 @@ the "MORE" button to load another 10 news items is green in idle status, while t
 
 ---
 
-![package.json](/asset/img/packagefoto.png)
+Previous Versions : </br>
+The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
+Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)
 
 ---
 
