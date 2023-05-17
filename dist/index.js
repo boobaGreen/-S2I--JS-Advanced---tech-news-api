@@ -21779,8 +21779,6 @@ console.log(API_ONE_DET_OBJ);
 
 // SERVICE EXTERNAL SECTION //
 
-//import { API_500_IDO_OBJ, API_ONE_DET_OBJ } from "./costant"; // IMPORT MY COSTANT FOR API REQUEST
-// IMPORT OTHERS JS FILE PROJECT
 
 
 const _ = __webpack_require__(13);
