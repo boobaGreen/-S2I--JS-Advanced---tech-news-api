@@ -50,6 +50,6 @@ Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title a
 
 🔗 Social Links
 
-Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/),[Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/),[Github](https://github.com/boobaGreen).
+Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
 
 ---
