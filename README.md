@@ -113,7 +113,8 @@ the "MORE" button to load another 10 news items is green in idle status, while t
 
 Previous Versions : </br>
 The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
-Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)
+Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)</br>
+i redoing the project a couple of times with the excuse of the design helped me to better understand and fix all the management of npm, webpack5,.env and the necessary external libraries.
 
 ---
 
