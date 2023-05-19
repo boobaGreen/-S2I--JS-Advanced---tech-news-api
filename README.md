@@ -2,13 +2,15 @@
 
 ## 🔗 Project Link :
 
-[HACKER-NEWS](https://boobagreen.github.io/tech-news-api/)
+[GITHUB-REPO](https://github.com/boobaGreen/tech-news-api)
+
+[HACKER-NEWS-SITE](https://boobagreen.github.io/tech-news-api/)
 
 ---
 
 ## Context :
 
-Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course.
+Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course , by Claudio Dall'Ara.
 
 ---
 
@@ -37,7 +39,7 @@ If the user clicks on the "Load more" button, the application will have to take 
 
 ## Screenshot :
 
-![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
+![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](https://i.postimg.cc/0yxt74CH/scr.png)
 
 ---
 
@@ -57,9 +59,7 @@ in this project the thing that took me the most effort was the correct and order
 
 here are some images to summarize the management just mentioned:
 
-![package.json](/asset/img/packagefoto.png)</br>
-![package.json](/asset/img/packagefoto.png)</br>
-![package.json](/asset/img/packagefoto.png)</br>
+![package.json](https://i.postimg.cc/kGSmRHyg/packagefoto.png)</br>
 
 ---
 
@@ -96,7 +96,7 @@ the "MORE" button to load another 10 news items is green in idle status, while t
 ## Previous Versions :
 
 The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
-Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)</br>
+Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](https://i.postimg.cc/YCqsJVmL/apioldfoto.png)</br>
 i redoing the project a couple of times with the excuse of the design helped me to better understand and fix all the management of npm, webpack5,.env and the necessary external libraries.
 
 ---
@@ -107,7 +107,7 @@ i redoing the project a couple of times with the excuse of the design helped me 
 
 for the creation of the side scroll bar customized in shape and color I noticed that there are some differences between the chromium base browser and firefox, so I had to manage it in 2 different ways and the result is also slightly different: while in chrome the result is as seen in the main screenshot, in firefox it looks like this:
 
-![It shows the one page screenshot of the App in firefo browser , the side bar aspect is different from chromium base browser](/asset/img/firefoxscr.png)
+![It shows the one page screenshot of the App in firefo browser , the side bar aspect is different from chromium base browser](https://i.postimg.cc/fRrB1bN1/firefoxscr.png)
 
 ### Link on tile news :
 
