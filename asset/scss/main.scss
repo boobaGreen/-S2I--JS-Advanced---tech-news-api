@@ -127,6 +127,7 @@ body {
 }
 // one line each news -- minimal
 .one-news-div::after {
+  overflow-x: hidden;
   position: relative;
   width: 10%;
   top: 50%;
