@@ -1,8 +1,3 @@
-// API KEY IMPORT FROM .ENV FOR ES6
-const API_500_IDO_OBJ = process.env.API_500_IDO_OBJ;
-const API_ONE_DET_OBJ = process.env.API_ONE_DET_OBJ;
-console.log(API_500_IDO_OBJ);
-console.log(API_ONE_DET_OBJ);
 // GENERAL IMPORT PROJECT //
 
 import axios, { isCancel, AxiosError } from "axios"; // import axios
@@ -14,7 +9,9 @@ import { createUrl, convertTime } from "./myService";
 import { createPageElement, createOneNewsEl } from "./elementService";
 const _ = require("lodash");
 
-// INTERNAL COSTANT //
+// API KEY IMPORT FROM .ENV FOR ES6
+const API_500_IDO_OBJ = process.env.API_500_IDO_OBJ;
+const API_ONE_DET_OBJ = process.env.API_ONE_DET_OBJ;
 
 let actual_index = 0; // Index of last news detail download from API . Start at 0.
 
@@ -81,9 +78,9 @@ async function main_section() {
   /////////////////////////////////////////////////////////
   //refresh when click header
 
-  document.getElementById("header").addEventListener("click", cl_Div);
+  document.getElementById("header").addEventListener("click", reloadPage);
 
-  function cl_Div() {
+  function reloadPage() {
     location.reload();
   }
 
@@ -106,17 +103,3 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn").style.color = "orange";
   main_section();
 });
-
-// TEST SECTION //
-
-/* test loadash -- passed --
-const ver = _.VERSION;
-console.log(ver); */
-
-/* test IMPORT COSTANT -- passed --
-console.log(API_500_IDO_OBJ);
-console.log(API_ONE_DET_OBJ); */
-
-/* test MY-SERVICE -- passed --
-console.log(convertTime(1683417764));
-console.log(createUrl(255566, API_ONE_DET_OBJ)); */

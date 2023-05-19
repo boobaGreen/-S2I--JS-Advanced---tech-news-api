@@ -25,8 +25,6 @@ export function createOneNewsEl(
   const timeElp = document.createElement("p");
   timeElp.classList.add("ptime");
 
-  let str = "Masteringjs.ioF";
-  str.slice(0, -1); // Masteringjs.io
   timeElp.innerHTML = newsHumanTime;
   timeEl.appendChild(timeElp);
   detailTopBoxElement.appendChild(timeEl);
@@ -55,7 +53,15 @@ export function createOneNewsEl(
 
   const newsTitleEl = document.createElement("h2");
   newsTitleEl.classList.add("news-title"); // vedere se serve questa classe altrimenti toglierla
-  newsTitleEl.innerHTML = newsTitle;
+
+  const titleOneNewsLink = document.createElement("a");
+  titleOneNewsLink.href = newsLink;
+  titleOneNewsLink.target = "blank";
+  titleOneNewsLink.text = newsTitle;
+
+  newsTitleEl.appendChild(titleOneNewsLink);
+
+  // old version newsTitleEl.innerHTML = newsTitle;
 
   oneNewsTitleContainer.appendChild(newsTitleEl);
 

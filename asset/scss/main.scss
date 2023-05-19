@@ -196,3 +196,8 @@ body {
 .newsLinkEl {
   color: $color-secondary;
 }
+
+.one-news-title-container a {
+  text-decoration: none;
+  color: $color-lighter;
+}
