@@ -41,7 +41,6 @@ export function createOneNewsEl(
     pNewsForNotLinked.innerHTML = "n" + "&#47" + "a";
     divLink.appendChild(pNewsForNotLinked);
   } else {
-    // newsLinkEl.innerHTML = "&#x2148"; // sign info "i" green
     newsLinkEl.innerHTML = "&#8618"; //&hookrightarrow
     divLink.appendChild(newsLinkEl);
   }
@@ -49,10 +48,10 @@ export function createOneNewsEl(
 
   // SECTION FOR 1 NEWS TITLE-CREATE
   const oneNewsTitleContainer = document.createElement("div");
-  oneNewsTitleContainer.classList.add("one-news-title-container"); // vedere se serve questa classe altrimenti toglierla
+  oneNewsTitleContainer.classList.add("one-news-title-container");
 
   const newsTitleEl = document.createElement("h2");
-  newsTitleEl.classList.add("news-title"); // vedere se serve questa classe altrimenti toglierla
+  newsTitleEl.classList.add("news-title");
 
   const titleOneNewsLink = document.createElement("a");
   titleOneNewsLink.href = newsLink;
@@ -61,13 +60,9 @@ export function createOneNewsEl(
 
   newsTitleEl.appendChild(titleOneNewsLink);
 
-  // old version newsTitleEl.innerHTML = newsTitle;
-
   oneNewsTitleContainer.appendChild(newsTitleEl);
 
-  /////////////////////////////////////////////////////////////////////
-
-  // AUTHOR
+  // AUTHOR SECTION
   const newsAuthEl = document.createElement("p");
   newsAuthEl.classList.add("news-author");
   newsAuthEl.innerHTML = "By : " + newsAuthor;

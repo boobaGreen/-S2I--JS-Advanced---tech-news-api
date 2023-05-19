@@ -11,6 +11,6 @@ export function convertTime(newsEpoch) {
 }
 
 export function createUrl(index, API_ONE_DET_OBJ) {
-  let NewUrl = `${API_ONE_DET_OBJ + index + ".json"}`; // creo la url di richiesta alla seconda API
-  return NewUrl; // No promise - normal function - restituisce solo la stringa url che mi serve per interrogare l'api di dettaglio per ogni news
+  let NewUrl = `${API_ONE_DET_OBJ + index + ".json"}`; // I create the request url to the second API
+  return NewUrl; // No promise - normal function - it only returns the url string I need to query the detail api for each news item
 }

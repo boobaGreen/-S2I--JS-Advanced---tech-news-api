@@ -19,7 +19,6 @@ body {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
   overflow: hidden;
-  //////////////////////////////////////
   margin-top: 0px;
 
   height: 100%;
@@ -28,7 +27,6 @@ body {
   background-color: $color-background;
 }
 
-// Header aggiunto in grid-area nella scheda header capire se tenerlo a parte sticky
 .button-container {
   //visibility: hidden;
   grid-area: btn;
@@ -38,8 +36,6 @@ body {
   justify-content: center;
 }
 .container-main-section {
-  //color: $color-secondary;
-  // max-height: 50vh;
   content: " ";
   grid-area: main;
   overflow-y: auto;
@@ -53,8 +49,6 @@ body {
 .container-main-section::-webkit-scrollbar {
   width: 20px;
   height: auto;
-  // background: $color-secondary;
-  // background-color: green;
 }
 .container-main-section::-webkit-scrollbar-track {
   background: $color-background;
@@ -70,12 +64,7 @@ body {
     $color-background
   );
 }
-/* .container-main-section ::-webkit-scrollbar-corner {
-  background: $color-primary;
-}
-.container-main-section ::-webkit-scrollbar-thumb {
-  background: $color-primary;
-} */
+
 .container-footer-section {
   position: relative;
   bottom: 0.8rem;
@@ -92,7 +81,7 @@ body {
   padding-bottom: 40px;
   height: 95%;
   display: grid;
-  grid-template-columns: repeat(10, 1fr); // creo grilia 8 x colonne
+  grid-template-columns: repeat(10, 1fr); // I create grid 8 x columns
   grid-template-rows: 0.5fr 2fr 0.5fr 0.1fr;
   grid-template-areas:
     ". . header header header header header header . ."
@@ -115,8 +104,6 @@ body {
 
 .one-news-div {
   background-color: $color-background;
-
-  //margin-top: 2rem;
   display: flex;
   gap: 0.6rem;
   flex-direction: column;
