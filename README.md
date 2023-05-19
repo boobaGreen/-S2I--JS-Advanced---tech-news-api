@@ -10,7 +10,7 @@
 
 ## Context :
 
-Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course , by Claudio Dall'Ara.
+Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course , by Claudio
 
 ---
 
