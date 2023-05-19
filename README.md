@@ -69,6 +69,8 @@ once the project was made functional I wanted to give it a more appropriate grap
 The idea is to do something suitable for technology enthusiasts and I came up with the idea of ​​a retro style terminal, the application will be a single page obviously and I chose to make the header and footer sticky leaving it scrollable the central part with the news.
 HP is inspired by several open source projects, then customizing them all with graphics that are consistent with each other and the project:
 
+---
+
 ### Social :
 
 [LogoSocialPart1](https://codepen.io/Stockin/pen/bzdNOq)
@@ -99,6 +101,20 @@ i redoing the project a couple of times with the excuse of the design helped me 
 
 ---
 
+## Various :
+
+### Custom Sidebar :
+
+for the creation of the side scroll bar customized in shape and color I noticed that there are some differences between the chromium base browser and firefox, so I had to manage it in 2 different ways and the result is also slightly different: while in chrome the result is as seen in the main screenshot, in firefox it looks like this:
+
+![It shows the one page screenshot of the App in firefo browser , the side bar aspect is different from chromium base browser](/asset/img/firefoxscr.png)
+
+### Link on tile news :
+
+since it was made explicit by the requests for the exercise, I left a separate link (the green arrow) in each block of each piece of news, but I also made the title of each piece of news clickable to send back to the source of the news because it seemed very natural for any user.
+
+---
+
 ## Build with :
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/>&nbsp;&nbsp;&nbsp; HTML5 </br>
@@ -120,18 +136,6 @@ External libraries used for the project are:
 - DOTENV
 
 ---
-
-## Various :
-
-### Custom Sidebar :
-
-for the creation of the side scroll bar customized in shape and color I noticed that there are some differences between the chromium base browser and firefox, so I had to manage it in 2 different ways and the result is also slightly different: while in chrome the result is as seen in the main screenshot, in firefox it looks like this:
-
-![It shows the one page screenshot of the App in firefo browser , the side bar aspect is different from chromium base browser](/asset/img/firefoxscr.png)
-
-### Link on tile news :
-
-since it was made explicit by the requests for the exercise, I left a separate link (the green arrow) in each block of each piece of news, but I also made the title of each piece of news clickable to send back to the source of the news because it seemed very natural for any user.
 
 ## 🔗 Social Links :
 
