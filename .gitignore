@@ -5,6 +5,7 @@ note.txt
 # file .env
 .env
 # dist put "/dist" when deploy , undist when push or just for repo
+/dist
 
 
 
