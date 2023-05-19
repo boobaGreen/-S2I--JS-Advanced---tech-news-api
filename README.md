@@ -1,41 +1,20 @@
-</br>
+# Hacker-News
 
-<h1 align="center">Hacker News</h1>
+## 🔗 Project Link :
 
-<h3>Build with : </h3>
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/>&nbsp;&nbsp;&nbsp; HTML5 </br>
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/>&nbsp;&nbsp;&nbsp; CSS </br>
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/>&nbsp;&nbsp;&nbsp; JAVASCRIPT </br>
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="30" height="30"/>&nbsp;&nbsp;&nbsp; SASS </br>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack" width="30" height="30" />&nbsp;&nbsp;&nbsp; WEBPACK </br>
-
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/>&nbsp;&nbsp;&nbsp; GIT </br>
-
-External libraries used for the project are:</br>
-</br>
-
-- AXIOS</br>
-  </br>
-- LODASH</br>
-  </br>
-- DOTENV</br>
-
--------------------HACKER-NEWS-------------------
-
-🔗 Project Link : [HACKER-NEWS](https://boobagreen.github.io/tech-news-api/)
+[HACKER-NEWS](https://boobagreen.github.io/tech-news-api/)
 
 ---
 
-Context : </br> Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course.
+## Context :
+
+Project realized for the [Start2Impact](https://www.start2impact.it/) "Javascript Advanced" course.
 
 ---
 
-Requests : </br> At startup, the application will have to display the list of the latest news available by displaying the title, the link and the date of the news. He will then have to contact the API (as per the documentation) of the external Hacker News service to retrieve the list of latest news IDs. For each ID, the application will have to contact another API of the Hacker News service to obtain the information to be displayed such as the title, link and date of the news.
+## Requests :
+
+At startup, the application will have to display the list of the latest news available by displaying the title, the link and the date of the news. He will then have to contact the API (as per the documentation) of the external Hacker News service to retrieve the list of latest news IDs. For each ID, the application will have to contact another API of the Hacker News service to obtain the information to be displayed such as the title, link and date of the news.
 
 See here for example where 27933223 represents the ID present in the previous call to the service.
 
@@ -56,11 +35,14 @@ If the user clicks on the "Load more" button, the application will have to take 
 
 ---
 
-Screenshot : </br> ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
+## Screenshot :
+
+![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/scr.png)
 
 ---
 
-Idea & Technical path : </br>
+## Idea & Technical path :
+
 I first tried to make everything work with a version with no particular graphical identity.
 I first made small projects to manage LODASH and AXIOS independently, I wanted to understand how to manage libraries correctly, both with CDNs and installing them with NPM. I later implemented them in the general program. The list with the 500 news IDs is loaded when the page is loaded and kept in memory, it is reloaded and completely updated only when the page is refreshed from the browser or by pressing on the site title "HACKER-NEWS".
 at this point I began to understand how to manage WEBPACK5 and I did several days of study on the subject because I had underestimated it, it is very interesting but its logic in the first instance left me with many doubts and perplexities, which is why I dedicated it to dedicated in-depth study days.
@@ -69,15 +51,11 @@ I managed to manage everything on GithubPage implemented a "deploy" branch where
 
 ---
 
-Previous Versions : </br>
-The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
-Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)
+## General Management :
 
----
+in this project the thing that took me the most effort was the correct and orderly management of the files, the management of the .env file and the management of webpack with the installation and correct management of the necessary plugins including the correct implementation in the webpack.config.js file with the various options needed to complete correctly and understand their meaning.
 
-in this project the thing that took me the most effort was the correct and orderly management of the files, the management of the .env file and the management of webpack with the installation and correct management of the necessary plugins including the correct implementation in the webpack.config.js file with the various options needed to complete correctly and understand their meaning.</br>
-
-here are some images to summarize the management just mentioned: </br>
+here are some images to summarize the management just mentioned:
 
 ![package.json](/asset/img/packagefoto.png)</br>
 ![package.json](/asset/img/packagefoto.png)</br>
@@ -85,40 +63,63 @@ here are some images to summarize the management just mentioned: </br>
 
 ---
 
-Design and graphic : </br>
+## Design and graphic :
 
 once the project was made functional I wanted to give it a more appropriate graphic aspect.
 The idea is to do something suitable for technology enthusiasts and I came up with the idea of ​​a retro style terminal, the application will be a single page obviously and I chose to make the header and footer sticky leaving it scrollable the central part with the news.
 HP is inspired by several open source projects, then customizing them all with graphics that are consistent with each other and the project:
 
-Social : </br>
-[SocialPart1]https://codepen.io/Stockin/pen/bzdNOq </br>
-[SocialPart2]https://freefrontend.com/css-social-media-icons/ </br>
+### Social :
 
----
+[LogoSocialPart1](https://codepen.io/Stockin/pen/bzdNOq)
 
-Button : </br>
-[ButtonPart1]https://codepen.io/kocsten/pen/rggjXp </br>
-[ButtonPart2]https://dev.to/webdeasy/top-20-css-buttons-animations-f41 </br>
+[LogoSocialPart2](https://freefrontend.com/css-social-media-icons/)
 
----
+### Button :
 
-Animation Title : </br>
-[AnimationTitle1]https://freefrontend.com/css-typing-text/ </br>
-[AnimationTitle2]https://codepen.io/brandonmcconnell/pen/bZqGdw </br>
+[ButtonPart1](https://codepen.io/kocsten/pen/rggjXp)
+
+[ButtonPart2](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)
+
+### Animation Title :
+
+[AnimationTitle1](https://freefrontend.com/css-typing-text/)
+
+[AnimationTitle2](https://codepen.io/brandonmcconnell/pen/bZqGdw)
 
 the "MORE" button to load another 10 news items is green in idle status, while the data from the API is being downloaded, the button takes on orange shades and the writing becomes "LOADING".
 
 ---
 
-Previous Versions : </br>
+## Previous Versions :
+
 The design of the project has gone through many intermediate stages, one of the latest stages of progress is for example this: [Provisional version](https://boobagreen.github.io/tech-news-old/)
 Screenshots OLD VERSION : ![It shows the one page screenshot of the App. title at the top . Center with the core news section , where you can see the title of each news, the hour , the author and if available a lin kto the original source link.](/asset/img/apioldfoto.png)</br>
 i redoing the project a couple of times with the excuse of the design helped me to better understand and fix all the management of npm, webpack5,.env and the necessary external libraries.
 
 ---
 
-🔗 Social Links </br>
+## Build with :
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/>&nbsp;&nbsp;&nbsp; HTML5 </br>
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/>&nbsp;&nbsp;&nbsp; CSS </br>
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/>&nbsp;&nbsp;&nbsp; JAVASCRIPT </br>
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="30" height="30"/>&nbsp;&nbsp;&nbsp; SASS </br>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack" width="30" height="30" />&nbsp;&nbsp;&nbsp; WEBPACK </br>
+
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/>&nbsp;&nbsp;&nbsp; GIT </br>
+
+External libraries used for the project are:
+
+- AXIOS
+- LODASH
+- DOTENV
+
+## 🔗 Social Links :
 
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
 
