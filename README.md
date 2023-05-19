@@ -119,6 +119,20 @@ External libraries used for the project are:
 - LODASH
 - DOTENV
 
+---
+
+## Various :
+
+### Custom Sidebar :
+
+for the creation of the side scroll bar customized in shape and color I noticed that there are some differences between the chromium base browser and firefox, so I had to manage it in 2 different ways and the result is also slightly different: while in chrome the result is as seen in the main screenshot, in firefox it looks like this:
+
+![It shows the one page screenshot of the App in firefo browser , the side bar aspect is different from chromium base browser](/asset/img/firefoxscr.png)
+
+### Link on tile news :
+
+since it was made explicit by the requests for the exercise, I left a separate link (the green arrow) in each block of each piece of news, but I also made the title of each piece of news clickable to send back to the source of the news because it seemed very natural for any user.
+
 ## 🔗 Social Links :
 
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
