@@ -4,7 +4,7 @@
 
 [GITHUB-REPO](https://github.com/boobaGreen/tech-news-api)
 
-[HACKER-NEWS-SITE](https://boobagreen.github.io/tech-news-api/](https://boobagreen.github.io/)
+[HACKER-NEWS-SITE][(https://boobagreen.github.io/tech-news-api/](https://boobagreen.github.io/)](https://boobagreen.github.io/-S2I--JS-Advanced---tech-news-api/)
 
 ---
 
