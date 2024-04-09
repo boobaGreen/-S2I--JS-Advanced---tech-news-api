@@ -7,7 +7,7 @@ note.txt
 # file README.PDF
 *.pdf
 # dist put "/dist" when deploy , undist when push or just for repo
-/dist
+# /dist
 
 
 

@@ -1,97 +1,107 @@
-// GENERAL IMPORT PROJECT //
-
-import axios, { isCancel, AxiosError } from "axios"; // import axios
-import "../scss/main.scss"; // import scss for webpack
-
-// SERVICE EXTERNAL SECTION //
+import axios from "axios";
+import "../scss/main.scss";
 
 import { createUrl, convertTime } from "./myService";
 import { createPageElement, createOneNewsEl } from "./elementService";
 const _ = require("lodash");
 
-// API KEY IMPORT FROM .ENV FOR ES6
-const API_500_IDO_OBJ = process.env.API_500_IDO_OBJ;
-const API_ONE_DET_OBJ = process.env.API_ONE_DET_OBJ;
-
-let actual_index = 0; // Index of last news detail download from API . Start at 0.
-
-let news_per_page = 10; // Number of News per Page - Number of news visible at startup - Number "new" article when push LOAD MORE button-
-
-let obj500 = {}; // Obj where i put the first API request where i have a Obj with an array inside with the id of 500 last news. The first in array ARRAY[0] is the latest new in TIME line and the ARRAY[500] was the old in TIME line.
-
-// AXIOS MODE REQUEST //
+let actual_index = 0;
+let news_per_page = 10;
+let obj500 = {};
 
 function getApi500News() {
-  return axios.get(API_500_IDO_OBJ); // RETURN a PROMISE -- Obj>Array[500] ID NEWS
+  return axios
+    .get("https://hacker-news.firebaseio.com/v0/newstories.json")
+    .then((response) => {
+      console.log("Response:", response);
+      return response.data;
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      throw error;
+    });
 }
+
 function getApiOneDet(index) {
-  return axios.get(createUrl(index, API_ONE_DET_OBJ)); // RETURN a PROMISE -- OBJ Detail One News ".data...."
+  return axios.get(
+    createUrl(index, "https://hacker-news.firebaseio.com/v0/item/")
+  );
 }
 
 async function createPage(array_id_news) {
-  const pageElement = createPageElement();
+  try {
+    if (!array_id_news) {
+      throw new Error("array_id_news is undefined");
+    }
 
-  for (let i = actual_index; i < actual_index + news_per_page; i++) {
-    let newsX = await getApiOneDet(array_id_news[i]); // call to the second API for the details of each news
+    const pageElement = createPageElement();
 
-    let titleActual = _.get(newsX, "data.title");
-    let linkActual = _.get(newsX, "data.url");
-    let epochTimeActual = _.get(newsX, "data.time"); // epoch time to convert in Human format
-    let authorActual = _.get(newsX, "data.by");
+    for (let i = actual_index; i < actual_index + news_per_page; i++) {
+      if (i >= array_id_news.length) {
+        break;
+      }
 
-    let longhumanTimeActual = convertTime(epochTimeActual); // I call my external function to convert epoch time to human time
-    let last5 = longhumanTimeActual.slice(-5);
+      let newsX = await getApiOneDet(array_id_news[i]);
 
-    let humanTimeActual = last5;
-    //
-    createOneNewsEl(
-      titleActual,
-      linkActual,
-      humanTimeActual,
-      authorActual,
-      pageElement
-    );
+      let titleActual = _.get(newsX, "data.title");
+      let linkActual = _.get(newsX, "data.url");
+      let epochTimeActual = _.get(newsX, "data.time");
+      let authorActual = _.get(newsX, "data.by");
+
+      let longhumanTimeActual = convertTime(epochTimeActual);
+      let last5 = longhumanTimeActual.slice(-5);
+      let humanTimeActual = last5;
+
+      createOneNewsEl(
+        titleActual,
+        linkActual,
+        humanTimeActual,
+        authorActual,
+        pageElement
+      );
+    }
+
+    const mainElement = document.getElementById("main");
+    mainElement.appendChild(pageElement);
+    document.getElementById("btn").innerHTML = "MORE";
+    document.getElementById("btn").style.backgroundColor =
+      "rgba(170, 255, 0, 0.661)";
+    document.getElementById("btn").style.color = "rgba(170, 255, 0, 0.661)";
+  } catch (error) {
+    console.error("Error in createPage:", error);
   }
-  const mainElement = document.getElementById("main");
-  mainElement.appendChild(pageElement);
-  document.getElementById("btn").innerHTML = "MORE";
-  document.getElementById("btn").style.backgroundColor =
-    "rgba(170, 255, 0, 0.661)";
-  document.getElementById("btn").style.color = "rgba(170, 255, 0, 0.661)";
 }
-
-// MAIN SECTION //
 
 async function mainSection() {
-  obj500 = await getApi500News();
+  try {
+    obj500 = await getApi500News();
+    console.log("obj500:", obj500);
 
-  //console.log(obj500);
-  let array500 = obj500.data; // I take from the object only the data that interest me so the array
+    if (obj500) {
+      createPage(obj500);
+    } else {
+      console.error("Error: Unable to retrieve data from obj500");
+    }
 
-  createPage(array500);
+    document.getElementById("header").addEventListener("click", reloadPage);
 
-  //refresh when click header
+    function reloadPage() {
+      location.reload();
+    }
 
-  document.getElementById("header").addEventListener("click", reloadPage);
+    document.getElementById("btn").addEventListener("click", function (event) {
+      document.getElementById("btn").innerHTML = "LOADING";
+      document.getElementById("btn").style.backgroundColor = "red";
+      document.getElementById("btn").style.color = "orange";
 
-  function reloadPage() {
-    location.reload();
+      createPage(obj500);
+    });
+  } catch (error) {
+    console.error("Error:", error);
   }
-
-  //refresh when click header end
-  document.getElementById("btn").addEventListener("click", function (event) {
-    // funzione quando clicco il bottone load-more
-    document.getElementById("btn").innerHTML = "LOADING";
-    document.getElementById("btn").style.backgroundColor = "red";
-    document.getElementById("btn").style.color = "orange";
-
-    createPage(array500); // chiamo la funzione principale passandogli l'array gia' costruito in precedenza con la lista degli id delle news
-  });
 }
-// START PROGRAM //
 
 window.addEventListener("DOMContentLoaded", () => {
-  //setGenPageLayout();
   document.getElementById("btn").style.backgroundColor = "red";
   document.getElementById("btn").style.color = "orange";
   mainSection();
