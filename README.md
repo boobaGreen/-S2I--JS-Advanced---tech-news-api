@@ -142,3 +142,8 @@ External libraries used for the project are:
 Claudio Dall'Ara : [Portfolio](https://boobagreen.github.io/portfolio/), [Linkedin](https://www.linkedin.com/in/claudio-dall-ara-244816175/), [Github](https://github.com/boobaGreen).
 
 ---
+
+-update correction-
+
+-tolto il file nv perche' non essenziale in quanto le api sono free e non servono chiavi
+-aggiunto il try catch che mancava come da correzione
