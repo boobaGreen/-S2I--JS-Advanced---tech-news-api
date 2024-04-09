@@ -4,7 +4,7 @@
 
 [GITHUB-REPO](https://github.com/boobaGreen/tech-news-api)
 
-[HACKER-NEWS-SITE](https://boobagreen.github.io/tech-news-api)
+[HACKER-NEWS-SITE](https://6615c66e858a454f6fb8062d--dazzling-tapioca-e14422.netlify.app/)
 
 ---
 
